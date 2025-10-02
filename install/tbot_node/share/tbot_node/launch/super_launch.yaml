@@ -1,0 +1,11 @@
+launch:
+- node:
+    pkg: "rviz2"
+    exec: "rviz2"
+    name: "tbot_viz"
+    args: "$(find-pkg-share tbot_node)/rviz/super.rviz"
+- executable: 
+    cmd: "ros2 run teleop_twist_keyboard teleop_twist_keyboard cmd_vel:=/multi/cmd_teleop"
+    launch-prefix: "xterm -e"
+    output: "screen"
+    name: "tbot_teleop"

@@ -1,0 +1,39 @@
+[0.025s] Invoking command in '/home/samar/takwa_ws/build/pkg-nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --build /home/samar/takwa_ws/build/pkg-nav -- -j4 -l4
+[0.138s] Invoked command in '/home/samar/takwa_ws/build/pkg-nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --build /home/samar/takwa_ws/build/pkg-nav -- -j4 -l4
+[0.224s] Invoking command in '/home/samar/takwa_ws/build/pkg-nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --install /home/samar/takwa_ws/build/pkg-nav
+[0.244s] -- Install configuration: ""
+[0.244s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch
+[0.244s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/amcl.launch.py
+[0.244s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/urg_node.launch.py
+[0.244s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/multiplexer.launch.py
+[0.244s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/nav2.launch.py
+[0.244s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/slam.launch.py
+[0.245s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/joy.launch.py
+[0.245s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/localization.launch.py
+[0.245s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/load_map.launch.py
+[0.245s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//config
+[0.245s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//config/nav2_params.yaml
+[0.245s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//config/amcl_params.yaml
+[0.245s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//config/teleop.yaml
+[0.249s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//config/slam_params.yaml
+[0.249s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//config/multiplexer.yaml
+[0.249s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/lib/pkg-nav/human_following.py
+[0.249s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/lib/pkg-nav/goal_delay.py
+[0.250s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/lib/pkg-nav/velocity_multiplexer.py
+[0.250s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/lib/pkg-nav/sim_clock.py
+[0.251s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/ament_index/resource_index/package_run_dependencies/pkg-nav
+[0.251s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/ament_index/resource_index/parent_prefix_path/pkg-nav
+[0.251s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/environment/ament_prefix_path.sh
+[0.251s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/environment/ament_prefix_path.dsv
+[0.251s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/environment/path.sh
+[0.252s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/environment/path.dsv
+[0.252s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/local_setup.bash
+[0.254s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/local_setup.sh
+[0.254s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/local_setup.zsh
+[0.254s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/local_setup.dsv
+[0.254s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/package.dsv
+[0.254s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/ament_index/resource_index/packages/pkg-nav
+[0.254s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/cmake/pkg-navConfig.cmake
+[0.255s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/cmake/pkg-navConfig-version.cmake
+[0.256s] -- Up-to-date: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/package.xml
+[0.257s] Invoked command in '/home/samar/takwa_ws/build/pkg-nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --install /home/samar/takwa_ws/build/pkg-nav

@@ -1,0 +1,102 @@
+[0.014s] Invoking command in '/home/samar/takwa_ws/build/kobuki_node': CMAKE_PREFIX_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces:/home/samar/takwa_ws/install/kobuki_core:/home/samar/takwa_ws/install/tbot_node:/home/samar/takwa_ws/install/pkg-nav:/home/samar/takwa_ws/install/kobuki_ros:/home/samar/takwa_ws/install/kobuki_node:/home/samar/mb6-space/install/draft_pkg:/home/samar/mb6-space/install/basic_node:/home/samar/mb6-space/install/basic_msgs:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron LD_LIBRARY_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib:/home/samar/takwa_ws/install/kobuki_core/lib:/home/samar/takwa_ws/install/kobuki_node/lib:/home/samar/mb6-space/install/basic_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/python3.10/site-packages:/home/samar/takwa_ws/build/mon_package:/home/samar/takwa_ws/build/follow_waypoints:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/samar/mb6-space/install/basic_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake /home/samar/takwa_ws/src/pkg-tbot/kobuki_node -DCMAKE_INSTALL_PREFIX=/home/samar/takwa_ws/install/kobuki_node
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.134s] -- The CXX compiler identification is GNU 11.4.0
+[0.141s] -- Detecting C compiler ABI info
+[0.223s] -- Detecting C compiler ABI info - done
+[0.232s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.233s] -- Detecting C compile features
+[0.233s] -- Detecting C compile features - done
+[0.236s] -- Detecting CXX compiler ABI info
+[0.318s] -- Detecting CXX compiler ABI info - done
+[0.326s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.326s] -- Detecting CXX compile features
+[0.327s] -- Detecting CXX compile features - done
+[0.331s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[0.804s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.936s] -- Found angles: 1.16.0 (/opt/ros/iron/share/angles/cmake)
+[0.941s] -- Found diagnostic_msgs: 5.0.1 (/opt/ros/iron/share/diagnostic_msgs/cmake)
+[1.000s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.024s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.061s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.101s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.296s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/iron/share/diagnostic_updater/cmake)
+[1.436s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.440s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.572s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.605s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.663s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.898s] -- Found ecl_build: 1.0.3 (/opt/ros/iron/share/ecl_build/cmake)
+[1.907s] -- Found ecl_errors: 1.2.0 (/opt/ros/iron/share/ecl_errors/cmake)
+[1.916s] -- Found ecl_exceptions: 1.2.1 (/opt/ros/iron/share/ecl_exceptions/cmake)
+[1.921s] -- Found ecl_geometry: 1.2.1 (/opt/ros/iron/share/ecl_geometry/cmake)
+[2.183s] -- Found ecl_sigslots: 1.2.1 (/opt/ros/iron/share/ecl_sigslots/cmake)
+[2.189s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.189s]   The package name passed to `find_package_handle_standard_args` (Threads)
+[2.189s]   does not match the name of the calling package (ecl_threads).  This can
+[2.189s]   lead to problems in calling code that expects `find_package` result
+[2.189s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.189s] Call Stack (most recent call first):
+[2.189s]   /usr/share/cmake-3.22/Modules/FindThreads.cmake:238 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+[2.189s]   /opt/ros/iron/share/ecl_build/cmake/ecl_platform_detection.cmake:225 (include)
+[2.189s]   /opt/ros/iron/share/ecl_threads/cmake/ecl_threads-extras.cmake:4 (ecl_detect_threads)
+[2.189s]   /opt/ros/iron/share/ecl_threads/cmake/ecl_threadsConfig.cmake:41 (include)
+[2.189s]   /opt/ros/iron/share/ecl_sigslots/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.190s]   /opt/ros/iron/share/ecl_sigslots/cmake/ecl_sigslotsConfig.cmake:41 (include)
+[2.190s]   CMakeLists.txt:13 (find_package)
+[2.190s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.190s] [0m
+[2.190s] -- Found Threads: TRUE  
+[2.208s] -- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)
+[2.258s] -- Found kobuki_core: 1.4.0 (/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/cmake)
+[2.283s] -- Found kobuki_ros_interfaces: 1.0.0 (/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake)
+[2.557s] -- Found nav_msgs: 5.0.1 (/opt/ros/iron/share/nav_msgs/cmake)
+[2.696s] -- Found rclcpp_components: 21.0.6 (/opt/ros/iron/share/rclcpp_components/cmake)
+[2.815s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[2.935s] -- Found tf2: 0.31.7 (/opt/ros/iron/share/tf2/cmake)
+[2.946s] -- Found tf2_ros: 0.31.7 (/opt/ros/iron/share/tf2_ros/cmake)
+[3.299s] -- Configuring done
+[3.325s] -- Generating done
+[3.328s] -- Build files have been written to: /home/samar/takwa_ws/build/kobuki_node
+[3.346s] Invoked command in '/home/samar/takwa_ws/build/kobuki_node' returned '0': CMAKE_PREFIX_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces:/home/samar/takwa_ws/install/kobuki_core:/home/samar/takwa_ws/install/tbot_node:/home/samar/takwa_ws/install/pkg-nav:/home/samar/takwa_ws/install/kobuki_ros:/home/samar/takwa_ws/install/kobuki_node:/home/samar/mb6-space/install/draft_pkg:/home/samar/mb6-space/install/basic_node:/home/samar/mb6-space/install/basic_msgs:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron LD_LIBRARY_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib:/home/samar/takwa_ws/install/kobuki_core/lib:/home/samar/takwa_ws/install/kobuki_node/lib:/home/samar/mb6-space/install/basic_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/python3.10/site-packages:/home/samar/takwa_ws/build/mon_package:/home/samar/takwa_ws/build/follow_waypoints:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/samar/mb6-space/install/basic_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake /home/samar/takwa_ws/src/pkg-tbot/kobuki_node -DCMAKE_INSTALL_PREFIX=/home/samar/takwa_ws/install/kobuki_node
+[3.348s] Invoking command in '/home/samar/takwa_ws/build/kobuki_node': CMAKE_PREFIX_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces:/home/samar/takwa_ws/install/kobuki_core:/home/samar/takwa_ws/install/tbot_node:/home/samar/takwa_ws/install/pkg-nav:/home/samar/takwa_ws/install/kobuki_ros:/home/samar/takwa_ws/install/kobuki_node:/home/samar/mb6-space/install/draft_pkg:/home/samar/mb6-space/install/basic_node:/home/samar/mb6-space/install/basic_msgs:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron LD_LIBRARY_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib:/home/samar/takwa_ws/install/kobuki_core/lib:/home/samar/takwa_ws/install/kobuki_node/lib:/home/samar/mb6-space/install/basic_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/python3.10/site-packages:/home/samar/takwa_ws/build/mon_package:/home/samar/takwa_ws/build/follow_waypoints:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/samar/mb6-space/install/basic_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/samar/takwa_ws/build/kobuki_node -- -j4 -l4
+[3.406s] [ 16%] [32mBuilding CXX object CMakeFiles/kobuki_ros_node.dir/rclcpp_components/node_main_kobuki_ros_node.cpp.o[0m
+[3.408s] [ 33%] [32mBuilding CXX object CMakeFiles/kobuki_ros.dir/src/diagnostics.cpp.o[0m
+[3.412s] [ 50%] [32mBuilding CXX object CMakeFiles/kobuki_ros.dir/src/odometry.cpp.o[0m
+[3.412s] [ 66%] [32mBuilding CXX object CMakeFiles/kobuki_ros.dir/src/kobuki_ros.cpp.o[0m
+[10.338s] [ 83%] [32m[1mLinking CXX executable kobuki_ros_node[0m
+[10.601s] [ 83%] Built target kobuki_ros_node
+[46.220s] [100%] [32m[1mLinking CXX shared library libkobuki_ros.so[0m
+[49.285s] [100%] Built target kobuki_ros
+[49.297s] Invoked command in '/home/samar/takwa_ws/build/kobuki_node' returned '0': CMAKE_PREFIX_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces:/home/samar/takwa_ws/install/kobuki_core:/home/samar/takwa_ws/install/tbot_node:/home/samar/takwa_ws/install/pkg-nav:/home/samar/takwa_ws/install/kobuki_ros:/home/samar/takwa_ws/install/kobuki_node:/home/samar/mb6-space/install/draft_pkg:/home/samar/mb6-space/install/basic_node:/home/samar/mb6-space/install/basic_msgs:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron LD_LIBRARY_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib:/home/samar/takwa_ws/install/kobuki_core/lib:/home/samar/takwa_ws/install/kobuki_node/lib:/home/samar/mb6-space/install/basic_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/python3.10/site-packages:/home/samar/takwa_ws/build/mon_package:/home/samar/takwa_ws/build/follow_waypoints:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/samar/mb6-space/install/basic_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/samar/takwa_ws/build/kobuki_node -- -j4 -l4
+[49.339s] Invoking command in '/home/samar/takwa_ws/build/kobuki_node': CMAKE_PREFIX_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces:/home/samar/takwa_ws/install/kobuki_core:/home/samar/takwa_ws/install/tbot_node:/home/samar/takwa_ws/install/pkg-nav:/home/samar/takwa_ws/install/kobuki_ros:/home/samar/takwa_ws/install/kobuki_node:/home/samar/mb6-space/install/draft_pkg:/home/samar/mb6-space/install/basic_node:/home/samar/mb6-space/install/basic_msgs:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron LD_LIBRARY_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib:/home/samar/takwa_ws/install/kobuki_core/lib:/home/samar/takwa_ws/install/kobuki_node/lib:/home/samar/mb6-space/install/basic_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/python3.10/site-packages:/home/samar/takwa_ws/build/mon_package:/home/samar/takwa_ws/build/follow_waypoints:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/samar/mb6-space/install/basic_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/samar/takwa_ws/build/kobuki_node
+[49.348s] -- Install configuration: ""
+[49.349s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/lib/kobuki_node/kobuki_ros_node
+[49.349s] -- Set runtime path of "/home/samar/takwa_ws/install/kobuki_node/lib/kobuki_node/kobuki_ros_node" to ""
+[49.349s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/lib/libkobuki_ros.so
+[49.381s] -- Set runtime path of "/home/samar/takwa_ws/install/kobuki_node/lib/libkobuki_ros.so" to ""
+[49.381s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/include/kobuki_node
+[49.381s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/include/kobuki_node/odometry.hpp
+[49.381s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/include/kobuki_node/diagnostics.hpp
+[49.381s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/include/kobuki_node/kobuki_ros.hpp
+[49.381s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/config
+[49.381s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/config/kobuki_node_params.yaml
+[49.382s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/launch
+[49.382s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/launch/kobuki_node-composed-launch.py
+[49.382s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/launch/kobuki_node-launch.py
+[49.382s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/share/ament_index/resource_index/package_run_dependencies/kobuki_node
+[49.382s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/share/ament_index/resource_index/parent_prefix_path/kobuki_node
+[49.383s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/environment/ament_prefix_path.sh
+[49.383s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/environment/ament_prefix_path.dsv
+[49.383s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/environment/path.sh
+[49.383s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/environment/path.dsv
+[49.383s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/local_setup.bash
+[49.383s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/local_setup.sh
+[49.383s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/local_setup.zsh
+[49.383s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/local_setup.dsv
+[49.384s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/package.dsv
+[49.384s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/share/ament_index/resource_index/packages/kobuki_node
+[49.384s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/share/ament_index/resource_index/rclcpp_components/kobuki_node
+[49.384s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/cmake/kobuki_nodeConfig.cmake
+[49.384s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/cmake/kobuki_nodeConfig-version.cmake
+[49.384s] -- Installing: /home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/package.xml
+[49.387s] Invoked command in '/home/samar/takwa_ws/build/kobuki_node' returned '0': CMAKE_PREFIX_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces:/home/samar/takwa_ws/install/kobuki_core:/home/samar/takwa_ws/install/tbot_node:/home/samar/takwa_ws/install/pkg-nav:/home/samar/takwa_ws/install/kobuki_ros:/home/samar/takwa_ws/install/kobuki_node:/home/samar/mb6-space/install/draft_pkg:/home/samar/mb6-space/install/basic_node:/home/samar/mb6-space/install/basic_msgs:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron LD_LIBRARY_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib:/home/samar/takwa_ws/install/kobuki_core/lib:/home/samar/takwa_ws/install/kobuki_node/lib:/home/samar/mb6-space/install/basic_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/python3.10/site-packages:/home/samar/takwa_ws/build/mon_package:/home/samar/takwa_ws/build/follow_waypoints:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/samar/mb6-space/install/basic_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/samar/takwa_ws/build/kobuki_node

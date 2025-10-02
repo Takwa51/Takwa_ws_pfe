@@ -1,0 +1,39 @@
+[2.683s] Invoking command in '/home/samar/takwa_ws/src/mon_package': PYTHONPATH=/home/samar/takwa_ws/build/mon_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mon_package build --build-base /home/samar/takwa_ws/build/mon_package/build install --record /home/samar/takwa_ws/build/mon_package/install.log --single-version-externally-managed install_data
+[3.439s] running egg_info
+[3.478s] writing ../../build/mon_package/mon_package.egg-info/PKG-INFO
+[3.479s] writing dependency_links to ../../build/mon_package/mon_package.egg-info/dependency_links.txt
+[3.479s] writing entry points to ../../build/mon_package/mon_package.egg-info/entry_points.txt
+[3.480s] writing requirements to ../../build/mon_package/mon_package.egg-info/requires.txt
+[3.480s] writing top-level names to ../../build/mon_package/mon_package.egg-info/top_level.txt
+[3.983s] reading manifest file '../../build/mon_package/mon_package.egg-info/SOURCES.txt'
+[3.984s] writing manifest file '../../build/mon_package/mon_package.egg-info/SOURCES.txt'
+[3.985s] running build
+[3.985s] running build_py
+[3.985s] copying mon_package/checkpoint_monitor_node.py -> /home/samar/takwa_ws/build/mon_package/build/lib/mon_package
+[3.990s] copying mon_package/__init__.py -> /home/samar/takwa_ws/build/mon_package/build/lib/mon_package
+[3.990s] copying mon_package/influxdb_logger_node.py -> /home/samar/takwa_ws/build/mon_package/build/lib/mon_package
+[3.990s] copying mon_package/mqtt_subscriber_node.py -> /home/samar/takwa_ws/build/mon_package/build/lib/mon_package
+[3.990s] copying mon_package/anomaly_detector_node.py -> /home/samar/takwa_ws/build/mon_package/build/lib/mon_package
+[3.991s] running install
+[4.003s] running install_lib
+[4.076s] copying /home/samar/takwa_ws/build/mon_package/build/lib/mon_package/checkpoint_monitor_node.py -> /home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages/mon_package
+[4.076s] byte-compiling /home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages/mon_package/checkpoint_monitor_node.py to checkpoint_monitor_node.cpython-310.pyc
+[4.081s] running install_data
+[4.081s] copying resource/mon_package -> /home/samar/takwa_ws/install/mon_package/share/ament_index/resource_index/packages
+[4.081s]   File "/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages/mon_package/checkpoint_monitor_node.py", line 158
+[4.081s]     }])
+[4.081s]     ^
+[4.082s] SyntaxError: closing parenthesis '}' does not match opening parenthesis '(' on line 155
+[4.082s] 
+[4.082s] copying package.xml -> /home/samar/takwa_ws/install/mon_package/share/mon_package
+[4.082s] copying launch/main_launch.py -> /home/samar/takwa_ws/install/mon_package/share/mon_package/launch
+[4.082s] running install_egg_info
+[4.123s] removing '/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages/mon_package-0.0.0-py3.10.egg-info' (and everything under it)
+[4.124s] Copying ../../build/mon_package/mon_package.egg-info to /home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages/mon_package-0.0.0-py3.10.egg-info
+[4.125s] running install_scripts
+[4.372s] Installing anomaly_detector_node script to /home/samar/takwa_ws/install/mon_package/lib/mon_package
+[4.373s] Installing checkpoint_monitor_node script to /home/samar/takwa_ws/install/mon_package/lib/mon_package
+[4.373s] Installing influxdb_logger_node script to /home/samar/takwa_ws/install/mon_package/lib/mon_package
+[4.379s] Installing mqtt_subscriber_node script to /home/samar/takwa_ws/install/mon_package/lib/mon_package
+[4.379s] writing list of installed files to '/home/samar/takwa_ws/build/mon_package/install.log'
+[4.467s] Invoked command in '/home/samar/takwa_ws/src/mon_package' returned '0': PYTHONPATH=/home/samar/takwa_ws/build/mon_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mon_package build --build-base /home/samar/takwa_ws/build/mon_package/build install --record /home/samar/takwa_ws/build/mon_package/install.log --single-version-externally-managed install_data

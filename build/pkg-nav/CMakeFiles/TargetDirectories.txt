@@ -1,0 +1,9 @@
+/home/samar/takwa_ws/build/pkg-nav/CMakeFiles/uninstall.dir
+/home/samar/takwa_ws/build/pkg-nav/CMakeFiles/pkg-nav_uninstall.dir
+/home/samar/takwa_ws/build/pkg-nav/CMakeFiles/test.dir
+/home/samar/takwa_ws/build/pkg-nav/CMakeFiles/edit_cache.dir
+/home/samar/takwa_ws/build/pkg-nav/CMakeFiles/rebuild_cache.dir
+/home/samar/takwa_ws/build/pkg-nav/CMakeFiles/list_install_components.dir
+/home/samar/takwa_ws/build/pkg-nav/CMakeFiles/install.dir
+/home/samar/takwa_ws/build/pkg-nav/CMakeFiles/install/local.dir
+/home/samar/takwa_ws/build/pkg-nav/CMakeFiles/install/strip.dir

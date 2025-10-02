@@ -1,0 +1,5 @@
+  File "/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages/mon_package/checkpoint_monitor_node.py", line 158
+    }])
+    ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '(' on line 155
+

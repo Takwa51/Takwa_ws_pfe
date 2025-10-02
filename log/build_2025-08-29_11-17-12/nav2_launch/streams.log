@@ -1,0 +1,28 @@
+[1.707s] Invoking command in '/home/samar/takwa_ws/src/nav2_launch': PYTHONPATH=/home/samar/takwa_ws/build/nav2_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav2_launch build --build-base /home/samar/takwa_ws/build/nav2_launch/build install --record /home/samar/takwa_ws/build/nav2_launch/install.log --single-version-externally-managed install_data
+[2.351s] running egg_info
+[2.392s] writing ../../build/nav2_launch/nav2_launch.egg-info/PKG-INFO
+[2.395s] writing dependency_links to ../../build/nav2_launch/nav2_launch.egg-info/dependency_links.txt
+[2.397s] writing entry points to ../../build/nav2_launch/nav2_launch.egg-info/entry_points.txt
+[2.397s] writing requirements to ../../build/nav2_launch/nav2_launch.egg-info/requires.txt
+[2.397s] writing top-level names to ../../build/nav2_launch/nav2_launch.egg-info/top_level.txt
+[2.712s] reading manifest file '../../build/nav2_launch/nav2_launch.egg-info/SOURCES.txt'
+[2.714s] writing manifest file '../../build/nav2_launch/nav2_launch.egg-info/SOURCES.txt'
+[2.714s] running build
+[2.714s] running build_py
+[2.714s] copying nav2_launch/__init__.py -> /home/samar/takwa_ws/build/nav2_launch/build/lib/nav2_launch
+[2.715s] running install
+[2.722s] running install_lib
+[2.743s] running install_data
+[2.743s] copying resource/nav2_launch -> /home/samar/takwa_ws/install/nav2_launch/share/ament_index/resource_index/packages
+[2.743s] copying package.xml -> /home/samar/takwa_ws/install/nav2_launch/share/nav2_launch
+[2.743s] copying launch/amcl_and_map.launch.py -> /home/samar/takwa_ws/install/nav2_launch/share/nav2_launch/launch
+[2.744s] copying launch/slam.launch.py -> /home/samar/takwa_ws/install/nav2_launch/share/nav2_launch/launch
+[2.744s] copying launch/navigation_launch.py -> /home/samar/takwa_ws/install/nav2_launch/share/nav2_launch/launch
+[2.746s] copying config/slam_params.yaml -> /home/samar/takwa_ws/install/nav2_launch/share/nav2_launch/config
+[2.747s] running install_egg_info
+[2.769s] removing '/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages/nav2_launch-0.0.0-py3.10.egg-info' (and everything under it)
+[2.769s] Copying ../../build/nav2_launch/nav2_launch.egg-info to /home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages/nav2_launch-0.0.0-py3.10.egg-info
+[2.770s] running install_scripts
+[2.822s] Installing nav2_launch script to /home/samar/takwa_ws/install/nav2_launch/lib/nav2_launch
+[2.822s] writing list of installed files to '/home/samar/takwa_ws/build/nav2_launch/install.log'
+[2.883s] Invoked command in '/home/samar/takwa_ws/src/nav2_launch' returned '0': PYTHONPATH=/home/samar/takwa_ws/build/nav2_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav2_launch build --build-base /home/samar/takwa_ws/build/nav2_launch/build install --record /home/samar/takwa_ws/build/nav2_launch/install.log --single-version-externally-managed install_data

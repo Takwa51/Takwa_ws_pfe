@@ -1,0 +1,7 @@
+[console_scripts]
+anomaly_detector_node = mon_package.anomaly_detector_node:main
+checkpoint_monitor_node = mon_package.checkpoint_monitor_node:main
+diagnostic_file_logger_node = mon_package.diagnostic_file_logger:main
+diagnostic_saver_node = mon_package.diagnostic_saver:main
+influxdb_logger_node = mon_package.influxdb_logger_node:main
+mqtt_subscriber_node = mon_package.mqtt_subscriber_node:main

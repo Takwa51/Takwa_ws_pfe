@@ -1,0 +1,145 @@
+[
+    {
+        "checkpoint": 1,
+        "zone_type": "porte/escalier",
+        "timestamp": 1756460746.3510325,
+        "protocols": {
+            "Wi-Fi": {
+                "temperature": 15.1,
+                "protocole": "Wi-Fi",
+                "protocole_id": 1,
+                "rssi": -43,
+                "battery_state": 100,
+                "timestamp": 1756460718.270405
+            },
+            "BLE": {
+                "temperature": 22.3,
+                "protocole": "BLE",
+                "protocole_id": 1,
+                "rssi": -60,
+                "battery_state": 98,
+                "timestamp": 1756460717.3424067
+            },
+            "LoRa": {
+                "temperature": 31.9,
+                "protocole": "LoRa",
+                "protocole_id": 1,
+                "rssi": -96,
+                "battery_state": 100,
+                "timestamp": 1756460718.3103635
+            }
+        },
+        "anomalies": [
+            {
+                "protocol": "Wi-Fi",
+                "type": "Anomalie confirm\u00e9e",
+                "cause_probable": "Vraie anomalie thermique ",
+                "temperature": 15.1
+            },
+            {
+                "protocol": "LoRa",
+                "type": "Anomalie douteuse",
+                "cause_probable": " Cause incertaine",
+                "temperature": 31.9
+            }
+        ],
+        "total_messages_received": 16
+    },
+    {
+        "checkpoint": 1,
+        "zone_type": "porte/escalier",
+        "timestamp": 1756477331.3010697,
+        "protocols": {
+            "Wi-Fi": {
+                "temperature": 29.3,
+                "protocole": "Wi-Fi",
+                "protocole_id": 1,
+                "rssi": -52,
+                "battery_state": 62,
+                "timestamp": 1756477293.653379
+            },
+            "BLE": {
+                "temperature": 25.2,
+                "protocole": "BLE",
+                "protocole_id": 1,
+                "rssi": -60,
+                "battery_state": 8,
+                "timestamp": 1756477318.8446286
+            },
+            "LoRa": {
+                "temperature": 25.3,
+                "protocole": "LoRa",
+                "protocole_id": 1,
+                "rssi": -79,
+                "battery_state": 100,
+                "timestamp": 1756477293.88684
+            }
+        },
+        "anomalies": [
+            {
+                "protocol": "Wi-Fi",
+                "type": "Anomalie confirm\u00e9e",
+                "cause_probable": "Vraie anomalie thermique ",
+                "temperature": 29.3
+            },
+            {
+                "protocol": "BLE",
+                "type": "Anomalie douteuse",
+                "cause_probable": "\u26a0 Capteur en fin de vie (batterie faible)",
+                "temperature": 25.2
+            },
+            {
+                "protocol": "LoRa",
+                "type": "Anomalie confirm\u00e9e",
+                "cause_probable": " Cause incertaine",
+                "temperature": 25.3
+            }
+        ],
+        "total_messages_received": 18
+    },
+    {
+        "checkpoint": 2,
+        "zone_type": "coloire",
+        "timestamp": 1756477383.8492093,
+        "protocols": {
+            "Wi-Fi": {
+                "temperature": 11.2,
+                "protocole": "Wi-Fi",
+                "protocole_id": 2,
+                "rssi": -35,
+                "battery_state": 0,
+                "timestamp": 1756477295.9062347
+            },
+            "BLE": {
+                "temperature": 33.0,
+                "protocole": "BLE",
+                "protocole_id": 2,
+                "rssi": -54,
+                "battery_state": 0,
+                "timestamp": 1756477306.8880265
+            },
+            "LoRa": {
+                "temperature": null,
+                "rssi": null,
+                "battery_state": null,
+                "status": "Absente - pr\u00e9diction ML appliqu\u00e9e",
+                "predicted_temperature": 26.047805555555527
+            }
+        },
+        "anomalies": [
+            {
+                "protocol": "Wi-Fi",
+                "type": "Anomalie douteuse",
+                "cause_probable": "\u26a0 Capteur en fin de vie (batterie faible)",
+                "temperature": 11.2
+            },
+            {
+                "protocol": "BLE",
+                "type": "Anomalie douteuse",
+                "cause_probable": "\u26a0 Capteur en fin de vie (batterie faible)",
+                "temperature": 33.0
+            }
+        ],
+        "total_messages_received": 26
+    }
+]

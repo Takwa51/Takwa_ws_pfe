@@ -1,0 +1,36 @@
+[2.361s] Invoking command in '/home/samar/takwa_ws4/src/mon_package': PYTHONPATH=/home/samar/takwa_ws4/build/mon_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samar/takwa_ws4/install/mon_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mon_package build --build-base /home/samar/takwa_ws4/build/mon_package/build install --record /home/samar/takwa_ws4/build/mon_package/install.log --single-version-externally-managed install_data
+[2.966s] running egg_info
+[3.008s] writing ../../build/mon_package/mon_package.egg-info/PKG-INFO
+[3.011s] writing dependency_links to ../../build/mon_package/mon_package.egg-info/dependency_links.txt
+[3.011s] writing entry points to ../../build/mon_package/mon_package.egg-info/entry_points.txt
+[3.011s] writing requirements to ../../build/mon_package/mon_package.egg-info/requires.txt
+[3.011s] writing top-level names to ../../build/mon_package/mon_package.egg-info/top_level.txt
+[3.370s] reading manifest file '../../build/mon_package/mon_package.egg-info/SOURCES.txt'
+[3.371s] writing manifest file '../../build/mon_package/mon_package.egg-info/SOURCES.txt'
+[3.372s] running build
+[3.372s] running build_py
+[3.373s] copying mon_package/diagnostic_file_logger.py -> /home/samar/takwa_ws4/build/mon_package/build/lib/mon_package
+[3.373s] copying mon_package/checkpoint_monitor_node.py -> /home/samar/takwa_ws4/build/mon_package/build/lib/mon_package
+[3.374s] copying mon_package/__init__.py -> /home/samar/takwa_ws4/build/mon_package/build/lib/mon_package
+[3.374s] copying mon_package/influxdb_logger_node.py -> /home/samar/takwa_ws4/build/mon_package/build/lib/mon_package
+[3.374s] copying mon_package/mqtt_subscriber_node.py -> /home/samar/takwa_ws4/build/mon_package/build/lib/mon_package
+[3.374s] copying mon_package/diagnostic_saver.py -> /home/samar/takwa_ws4/build/mon_package/build/lib/mon_package
+[3.374s] copying mon_package/anomaly_detector_node.py -> /home/samar/takwa_ws4/build/mon_package/build/lib/mon_package
+[3.374s] running install
+[3.383s] running install_lib
+[3.433s] running install_data
+[3.433s] copying resource/mon_package -> /home/samar/takwa_ws4/install/mon_package/share/ament_index/resource_index/packages
+[3.433s] copying package.xml -> /home/samar/takwa_ws4/install/mon_package/share/mon_package
+[3.433s] copying launch/main_launch.py -> /home/samar/takwa_ws4/install/mon_package/share/mon_package/launch
+[3.434s] running install_egg_info
+[3.476s] removing '/home/samar/takwa_ws4/install/mon_package/lib/python3.10/site-packages/mon_package-0.0.0-py3.10.egg-info' (and everything under it)
+[3.476s] Copying ../../build/mon_package/mon_package.egg-info to /home/samar/takwa_ws4/install/mon_package/lib/python3.10/site-packages/mon_package-0.0.0-py3.10.egg-info
+[3.478s] running install_scripts
+[3.584s] Installing anomaly_detector_node script to /home/samar/takwa_ws4/install/mon_package/lib/mon_package
+[3.584s] Installing checkpoint_monitor_node script to /home/samar/takwa_ws4/install/mon_package/lib/mon_package
+[3.584s] Installing diagnostic_file_logger_node script to /home/samar/takwa_ws4/install/mon_package/lib/mon_package
+[3.584s] Installing diagnostic_saver_node script to /home/samar/takwa_ws4/install/mon_package/lib/mon_package
+[3.584s] Installing influxdb_logger_node script to /home/samar/takwa_ws4/install/mon_package/lib/mon_package
+[3.584s] Installing mqtt_subscriber_node script to /home/samar/takwa_ws4/install/mon_package/lib/mon_package
+[3.584s] writing list of installed files to '/home/samar/takwa_ws4/build/mon_package/install.log'
+[3.634s] Invoked command in '/home/samar/takwa_ws4/src/mon_package' returned '0': PYTHONPATH=/home/samar/takwa_ws4/build/mon_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samar/takwa_ws4/install/mon_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mon_package build --build-base /home/samar/takwa_ws4/build/mon_package/build install --record /home/samar/takwa_ws4/build/mon_package/install.log --single-version-externally-managed install_data

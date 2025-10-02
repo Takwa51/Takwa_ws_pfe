@@ -1,0 +1,34 @@
+[2.773s] Invoking command in '/home/samar/takwa_ws/src/mon_package': PYTHONPATH=/home/samar/takwa_ws/build/mon_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mon_package build --build-base /home/samar/takwa_ws/build/mon_package/build install --record /home/samar/takwa_ws/build/mon_package/install.log --single-version-externally-managed install_data
+[3.427s] running egg_info
+[3.465s] writing ../../build/mon_package/mon_package.egg-info/PKG-INFO
+[3.471s] writing dependency_links to ../../build/mon_package/mon_package.egg-info/dependency_links.txt
+[3.471s] writing entry points to ../../build/mon_package/mon_package.egg-info/entry_points.txt
+[3.471s] writing requirements to ../../build/mon_package/mon_package.egg-info/requires.txt
+[3.471s] writing top-level names to ../../build/mon_package/mon_package.egg-info/top_level.txt
+[3.881s] reading manifest file '../../build/mon_package/mon_package.egg-info/SOURCES.txt'
+[3.884s] writing manifest file '../../build/mon_package/mon_package.egg-info/SOURCES.txt'
+[3.885s] running build
+[3.885s] running build_py
+[3.886s] copying mon_package/checkpoint_monitor_node.py -> /home/samar/takwa_ws/build/mon_package/build/lib/mon_package
+[3.887s] copying mon_package/__init__.py -> /home/samar/takwa_ws/build/mon_package/build/lib/mon_package
+[3.887s] copying mon_package/influxdb_logger_node.py -> /home/samar/takwa_ws/build/mon_package/build/lib/mon_package
+[3.888s] copying mon_package/mqtt_subscriber_node.py -> /home/samar/takwa_ws/build/mon_package/build/lib/mon_package
+[3.888s] copying mon_package/anomaly_detector_node.py -> /home/samar/takwa_ws/build/mon_package/build/lib/mon_package
+[3.891s] running install
+[3.902s] running install_lib
+[3.946s] copying /home/samar/takwa_ws/build/mon_package/build/lib/mon_package/mqtt_subscriber_node.py -> /home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages/mon_package
+[3.948s] byte-compiling /home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages/mon_package/mqtt_subscriber_node.py to mqtt_subscriber_node.cpython-310.pyc
+[3.948s] running install_data
+[3.948s] copying resource/mon_package -> /home/samar/takwa_ws/install/mon_package/share/ament_index/resource_index/packages
+[3.948s] copying package.xml -> /home/samar/takwa_ws/install/mon_package/share/mon_package
+[3.949s] copying launch/main_launch.py -> /home/samar/takwa_ws/install/mon_package/share/mon_package/launch
+[3.951s] running install_egg_info
+[3.996s] removing '/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages/mon_package-0.0.0-py3.10.egg-info' (and everything under it)
+[3.998s] Copying ../../build/mon_package/mon_package.egg-info to /home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages/mon_package-0.0.0-py3.10.egg-info
+[4.000s] running install_scripts
+[4.095s] Installing anomaly_detector_node script to /home/samar/takwa_ws/install/mon_package/lib/mon_package
+[4.095s] Installing checkpoint_monitor_node script to /home/samar/takwa_ws/install/mon_package/lib/mon_package
+[4.095s] Installing influxdb_logger_node script to /home/samar/takwa_ws/install/mon_package/lib/mon_package
+[4.101s] Installing mqtt_subscriber_node script to /home/samar/takwa_ws/install/mon_package/lib/mon_package
+[4.101s] writing list of installed files to '/home/samar/takwa_ws/build/mon_package/install.log'
+[4.147s] Invoked command in '/home/samar/takwa_ws/src/mon_package' returned '0': PYTHONPATH=/home/samar/takwa_ws/build/mon_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mon_package build --build-base /home/samar/takwa_ws/build/mon_package/build install --record /home/samar/takwa_ws/build/mon_package/install.log --single-version-externally-managed install_data

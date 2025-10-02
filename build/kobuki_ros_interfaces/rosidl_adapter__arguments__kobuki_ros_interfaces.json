@@ -1,0 +1,24 @@
+{
+  "package_name": "kobuki_ros_interfaces",
+  "non_idl_tuples": [
+    "/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces:msg/BumperEvent.msg",
+    "/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces:msg/CliffEvent.msg",
+    "/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces:msg/DigitalOutput.msg",
+    "/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces:msg/ExternalPower.msg",
+    "/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces:msg/Led.msg",
+    "/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces:msg/PowerSystemEvent.msg",
+    "/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces:msg/SensorState.msg",
+    "/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces:msg/VersionInfo.msg",
+    "/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces:msg/ControllerInfo.msg",
+    "/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces:msg/ButtonEvent.msg",
+    "/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces:msg/DigitalInputEvent.msg",
+    "/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces:msg/DockInfraRed.msg",
+    "/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces:msg/KeyboardInput.msg",
+    "/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces:msg/MotorPower.msg",
+    "/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces:msg/RobotStateEvent.msg",
+    "/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces:msg/Sound.msg",
+    "/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces:msg/ScanAngle.msg",
+    "/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces:msg/WheelDropEvent.msg",
+    "/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces:action/AutoDocking.action"
+  ]
+}

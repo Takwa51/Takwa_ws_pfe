@@ -1,0 +1,875 @@
+[0.115s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.115s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b38e3365c90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b38e3365780>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b38e3365780>>, mixin_verb=('build',))
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.160s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/samar/takwa_ws'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_02-16_42_54) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_02-16_42_54) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_02-16_42_54) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_02-16_42_54) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_02-16_42_54) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_02-16_42_54) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_02-16_42_54) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_02-16_42_54) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_02-16_42_54) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_02-16_42_54) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_02-16_42_54) by extension 'cmake'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_02-16_42_54) by extension 'python'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_02-16_42_54) by extensions ['python_setup_py']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_02-16_42_54) by extension 'python_setup_py'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-17_56_50) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-17_56_50) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-17_56_50) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-17_56_50) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-17_56_50) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-17_56_50) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-17_56_50) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-17_56_50) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-17_56_50) by extension 'ros'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-17_56_50) by extensions ['cmake', 'python']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-17_56_50) by extension 'cmake'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-17_56_50) by extension 'python'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-17_56_50) by extensions ['python_setup_py']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-17_56_50) by extension 'python_setup_py'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-19_42_05) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-19_42_05) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-19_42_05) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-19_42_05) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-19_42_05) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-19_42_05) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-19_42_05) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-19_42_05) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-19_42_05) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-19_42_05) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-19_42_05) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-19_42_05) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-19_42_05) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_06_04-19_42_05) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_30_14) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_30_14) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_30_14) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_30_14) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_30_14) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_30_14) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_30_14) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_30_14) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_30_14) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_30_14) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_30_14) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_30_14) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_30_14) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_30_14) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_32_18) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_32_18) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_32_18) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_32_18) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_32_18) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_32_18) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_32_18) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_32_18) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_32_18) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_32_18) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_32_18) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_32_18) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_32_18) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-16_32_18) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-18_18_22) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-18_18_22) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-18_18_22) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-18_18_22) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-18_18_22) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-18_18_22) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-18_18_22) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-18_18_22) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-18_18_22) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-18_18_22) by extensions ['cmake', 'python']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-18_18_22) by extension 'cmake'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-18_18_22) by extension 'python'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-18_18_22) by extensions ['python_setup_py']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_07_11-18_18_22) by extension 'python_setup_py'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/follow_waypoints' with type 'ros.ament_python' and name 'follow_waypoints'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_package) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_package) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_package) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_package) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_package) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_package) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_package) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_package) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_package) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mon_package' with type 'ros.ament_python' and name 'mon_package'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_launch) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_launch) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_launch) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_launch) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_launch) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_launch) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_launch) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_launch) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_launch' with type 'ros.ament_python' and name 'nav2_launch'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-nav) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-nav) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-nav) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-nav) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-nav) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-nav) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-nav) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-nav) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-nav) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg-nav' with type 'ros.ament_cmake' and name 'pkg-nav'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/bin) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/bin) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/bin) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/bin) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/bin) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/bin) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/bin) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/bin) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/bin) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/bin) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/bin) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/bin) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/bin) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/bin) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/diy) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/diy) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/diy) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/diy) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/diy) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/diy) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/diy) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/diy) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/diy) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/diy) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/diy) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/diy) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/diy) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/diy) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_core) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_core) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_core) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_core) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_core) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_core) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_core) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_core) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_core) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg-tbot/kobuki_core' with type 'ros.ament_cmake' and name 'kobuki_core'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_node) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_node) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_node) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_node) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_node) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_node) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_node) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_node) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_node) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg-tbot/kobuki_node' with type 'ros.ament_cmake' and name 'kobuki_node'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_ros) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_ros) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_ros) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_ros) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_ros) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_ros) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_ros) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_ros) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg-tbot/kobuki_ros' with type 'ros.ament_cmake' and name 'kobuki_ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_ros_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_ros_interfaces) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_ros_interfaces) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_ros_interfaces) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_ros_interfaces) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_ros_interfaces) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_ros_interfaces) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_ros_interfaces) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/kobuki_ros_interfaces) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg-tbot/kobuki_ros_interfaces' with type 'ros.ament_cmake' and name 'kobuki_ros_interfaces'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/tbot_node) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/tbot_node) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/tbot_node) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/tbot_node) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/tbot_node) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/tbot_node) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/tbot_node) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/tbot_node) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg-tbot/tbot_node) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg-tbot/tbot_node' with type 'ros.ament_cmake' and name 'tbot_node'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_launch) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_launch) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_launch) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_launch) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_launch) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_launch) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_launch) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_launch) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_launch' with type 'ros.ament_python' and name 'slam_launch'
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.221s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samar/takwa_ws/install/tbot_node' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.221s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samar/takwa_ws/install/slam_launch' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.221s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samar/takwa_ws/install/pkg-nav' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.221s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samar/takwa_ws/install/nav2_launch' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.221s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samar/takwa_ws/install/mon_package' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.221s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samar/takwa_ws/install/kobuki_ros' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.221s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samar/takwa_ws/install/kobuki_node' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.221s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samar/takwa_ws/install/kobuki_ros_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.221s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samar/takwa_ws/install/kobuki_core' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.221s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samar/takwa_ws/install/follow_waypoints' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.222s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/samar/takwa_ws/install/tbot_node' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.222s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/samar/takwa_ws/install/pkg-nav' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.222s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/samar/takwa_ws/install/kobuki_ros' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.222s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/samar/takwa_ws/install/kobuki_node' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.222s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/samar/takwa_ws/install/kobuki_ros_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.222s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/samar/takwa_ws/install/kobuki_core' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.223s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/samar/takwa_ws/install
+[0.223s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/samar/mb6-space/install
+[0.225s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 400 installed packages in /opt/ros/iron
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_target' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_clean_cache' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_clean_first' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_force_configure' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'ament_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'catkin_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.297s] DEBUG:colcon.colcon_core.verb:Building package 'follow_waypoints' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samar/takwa_ws/build/follow_waypoints', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samar/takwa_ws/install/follow_waypoints', 'merge_install': False, 'path': '/home/samar/takwa_ws/src/follow_waypoints', 'symlink_install': False, 'test_result_base': None}
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'kobuki_core' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'kobuki_core' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'kobuki_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'kobuki_core' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'kobuki_core' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'kobuki_core' build argument 'cmake_force_configure' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'kobuki_core' build argument 'ament_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'kobuki_core' build argument 'catkin_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'kobuki_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.298s] DEBUG:colcon.colcon_core.verb:Building package 'kobuki_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samar/takwa_ws/build/kobuki_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samar/takwa_ws/install/kobuki_core', 'merge_install': False, 'path': '/home/samar/takwa_ws/src/pkg-tbot/kobuki_core', 'symlink_install': False, 'test_result_base': None}
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'kobuki_ros_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'kobuki_ros_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'kobuki_ros_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'kobuki_ros_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'kobuki_ros_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'kobuki_ros_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'kobuki_ros_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'kobuki_ros_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'kobuki_ros_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'kobuki_ros_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samar/takwa_ws/build/kobuki_ros_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samar/takwa_ws/install/kobuki_ros_interfaces', 'merge_install': False, 'path': '/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'mon_package' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'mon_package' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'mon_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'mon_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'mon_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'mon_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'mon_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'mon_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'mon_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'mon_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samar/takwa_ws/build/mon_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samar/takwa_ws/install/mon_package', 'merge_install': False, 'path': '/home/samar/takwa_ws/src/mon_package', 'symlink_install': False, 'test_result_base': None}
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'nav2_launch' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'nav2_launch' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'nav2_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'nav2_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'nav2_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'nav2_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'nav2_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'nav2_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'nav2_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samar/takwa_ws/build/nav2_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samar/takwa_ws/install/nav2_launch', 'merge_install': False, 'path': '/home/samar/takwa_ws/src/nav2_launch', 'symlink_install': False, 'test_result_base': None}
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'pkg-nav' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'pkg-nav' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'pkg-nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'pkg-nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'pkg-nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'pkg-nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'pkg-nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'pkg-nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'pkg-nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'pkg-nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samar/takwa_ws/build/pkg-nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samar/takwa_ws/install/pkg-nav', 'merge_install': False, 'path': '/home/samar/takwa_ws/src/pkg-nav', 'symlink_install': False, 'test_result_base': None}
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'slam_launch' build argument 'cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'slam_launch' build argument 'cmake_target' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'slam_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'slam_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'slam_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'slam_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'slam_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'slam_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'slam_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'slam_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samar/takwa_ws/build/slam_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samar/takwa_ws/install/slam_launch', 'merge_install': False, 'path': '/home/samar/takwa_ws/src/slam_launch', 'symlink_install': False, 'test_result_base': None}
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'tbot_node' build argument 'cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'tbot_node' build argument 'cmake_target' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'tbot_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'tbot_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'tbot_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'tbot_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'tbot_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'tbot_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'tbot_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.302s] DEBUG:colcon.colcon_core.verb:Building package 'tbot_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samar/takwa_ws/build/tbot_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samar/takwa_ws/install/tbot_node', 'merge_install': False, 'path': '/home/samar/takwa_ws/src/pkg-tbot/tbot_node', 'symlink_install': False, 'test_result_base': None}
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'kobuki_node' build argument 'cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'kobuki_node' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'kobuki_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'kobuki_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'kobuki_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'kobuki_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'kobuki_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'kobuki_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'kobuki_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.302s] DEBUG:colcon.colcon_core.verb:Building package 'kobuki_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samar/takwa_ws/build/kobuki_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samar/takwa_ws/install/kobuki_node', 'merge_install': False, 'path': '/home/samar/takwa_ws/src/pkg-tbot/kobuki_node', 'symlink_install': False, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'kobuki_ros' build argument 'cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'kobuki_ros' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'kobuki_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'kobuki_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'kobuki_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'kobuki_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'kobuki_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'kobuki_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'kobuki_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'kobuki_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samar/takwa_ws/build/kobuki_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samar/takwa_ws/install/kobuki_ros', 'merge_install': False, 'path': '/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros', 'symlink_install': False, 'test_result_base': None}
+[0.303s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.304s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.304s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samar/takwa_ws/src/pkg-tbot/kobuki_core' with build type 'ament_cmake'
+[0.304s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samar/takwa_ws/src/pkg-tbot/kobuki_core'
+[0.307s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.307s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.307s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.311s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces' with build type 'ament_cmake'
+[0.312s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces'
+[0.312s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.318s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/samar/takwa_ws/src/follow_waypoints' with build type 'ament_python'
+[0.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('follow_waypoints', 'ament_prefix_path')
+[0.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/follow_waypoints/share/follow_waypoints/hook/ament_prefix_path.ps1'
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/follow_waypoints/share/follow_waypoints/hook/ament_prefix_path.dsv'
+[0.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/follow_waypoints/share/follow_waypoints/hook/ament_prefix_path.sh'
+[0.322s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.328s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/samar/takwa_ws/src/mon_package' with build type 'ament_python'
+[0.329s] Level 1:colcon.colcon_core.shell:create_environment_hook('mon_package', 'ament_prefix_path')
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/mon_package/share/mon_package/hook/ament_prefix_path.ps1'
+[0.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/mon_package/share/mon_package/hook/ament_prefix_path.dsv'
+[0.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/mon_package/share/mon_package/hook/ament_prefix_path.sh'
+[0.331s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.331s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/build/kobuki_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake /home/samar/takwa_ws/src/pkg-tbot/kobuki_core -DCMAKE_INSTALL_PREFIX=/home/samar/takwa_ws/install/kobuki_core
+[0.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/build/kobuki_ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake /home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces -DCMAKE_INSTALL_PREFIX=/home/samar/takwa_ws/install/kobuki_ros_interfaces
+[0.722s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/samar/takwa_ws/src/follow_waypoints'
+[0.722s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.723s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.216s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/samar/takwa_ws/src/mon_package'
+[1.216s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.216s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/src/follow_waypoints': PYTHONPATH=/home/samar/takwa_ws/build/follow_waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/follow_waypoints build --build-base /home/samar/takwa_ws/build/follow_waypoints/build install --record /home/samar/takwa_ws/build/follow_waypoints/install.log --single-version-externally-managed install_data
+[2.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/build/kobuki_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake /home/samar/takwa_ws/src/pkg-tbot/kobuki_core -DCMAKE_INSTALL_PREFIX=/home/samar/takwa_ws/install/kobuki_core
+[2.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/build/kobuki_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --build /home/samar/takwa_ws/build/kobuki_core -- -j4 -l4
+[2.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/src/mon_package': PYTHONPATH=/home/samar/takwa_ws/build/mon_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mon_package build --build-base /home/samar/takwa_ws/build/mon_package/build install --record /home/samar/takwa_ws/build/mon_package/install.log --single-version-externally-managed install_data
+[4.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/src/follow_waypoints' returned '0': PYTHONPATH=/home/samar/takwa_ws/build/follow_waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/follow_waypoints build --build-base /home/samar/takwa_ws/build/follow_waypoints/build install --record /home/samar/takwa_ws/build/follow_waypoints/install.log --single-version-externally-managed install_data
+[4.182s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/follow_waypoints' for CMake module files
+[4.183s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/follow_waypoints' for CMake config files
+[4.184s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/follow_waypoints/lib'
+[4.187s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/follow_waypoints/bin'
+[4.188s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/follow_waypoints/lib/pkgconfig/follow_waypoints.pc'
+[4.188s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages'
+[4.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('follow_waypoints', 'pythonpath')
+[4.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/follow_waypoints/share/follow_waypoints/hook/pythonpath.ps1'
+[4.189s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/follow_waypoints/share/follow_waypoints/hook/pythonpath.dsv'
+[4.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/follow_waypoints/share/follow_waypoints/hook/pythonpath.sh'
+[4.190s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/follow_waypoints/bin'
+[4.191s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(follow_waypoints)
+[4.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/follow_waypoints/share/follow_waypoints/package.ps1'
+[4.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samar/takwa_ws/install/follow_waypoints/share/follow_waypoints/package.dsv'
+[4.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/follow_waypoints/share/follow_waypoints/package.sh'
+[4.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/follow_waypoints/share/follow_waypoints/package.bash'
+[4.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/follow_waypoints/share/follow_waypoints/package.zsh'
+[4.205s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samar/takwa_ws/install/follow_waypoints/share/colcon-core/packages/follow_waypoints)
+[4.205s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/samar/takwa_ws/src/nav2_launch' with build type 'ament_python'
+[4.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_launch', 'ament_prefix_path')
+[4.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/nav2_launch/share/nav2_launch/hook/ament_prefix_path.ps1'
+[4.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/nav2_launch/share/nav2_launch/hook/ament_prefix_path.dsv'
+[4.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/nav2_launch/share/nav2_launch/hook/ament_prefix_path.sh'
+[4.209s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.209s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.949s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/samar/takwa_ws/src/nav2_launch'
+[4.949s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.949s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.963s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/mon_package' for CMake module files
+[4.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/src/mon_package' returned '0': PYTHONPATH=/home/samar/takwa_ws/build/mon_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mon_package build --build-base /home/samar/takwa_ws/build/mon_package/build install --record /home/samar/takwa_ws/build/mon_package/install.log --single-version-externally-managed install_data
+[4.964s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/mon_package' for CMake config files
+[4.965s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/mon_package/lib'
+[4.965s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/mon_package/bin'
+[4.965s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/mon_package/lib/pkgconfig/mon_package.pc'
+[4.966s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages'
+[4.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('mon_package', 'pythonpath')
+[4.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/mon_package/share/mon_package/hook/pythonpath.ps1'
+[4.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/mon_package/share/mon_package/hook/pythonpath.dsv'
+[4.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/mon_package/share/mon_package/hook/pythonpath.sh'
+[4.969s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/mon_package/bin'
+[4.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mon_package)
+[4.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/mon_package/share/mon_package/package.ps1'
+[4.973s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samar/takwa_ws/install/mon_package/share/mon_package/package.dsv'
+[4.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/mon_package/share/mon_package/package.sh'
+[4.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/mon_package/share/mon_package/package.bash'
+[4.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/mon_package/share/mon_package/package.zsh'
+[4.975s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samar/takwa_ws/install/mon_package/share/colcon-core/packages/mon_package)
+[4.976s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samar/takwa_ws/src/pkg-nav' with build type 'ament_cmake'
+[4.980s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samar/takwa_ws/src/pkg-nav'
+[4.981s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.981s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/build/pkg-nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake /home/samar/takwa_ws/src/pkg-nav -DCMAKE_INSTALL_PREFIX=/home/samar/takwa_ws/install/pkg-nav
+[7.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/src/nav2_launch': PYTHONPATH=/home/samar/takwa_ws/build/nav2_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav2_launch build --build-base /home/samar/takwa_ws/build/nav2_launch/build install --record /home/samar/takwa_ws/build/nav2_launch/install.log --single-version-externally-managed install_data
+[9.174s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/nav2_launch' for CMake module files
+[9.175s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/nav2_launch' for CMake config files
+[9.176s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/nav2_launch/lib'
+[9.176s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/nav2_launch/bin'
+[9.176s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/nav2_launch/lib/pkgconfig/nav2_launch.pc'
+[9.176s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages'
+[9.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_launch', 'pythonpath')
+[9.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/nav2_launch/share/nav2_launch/hook/pythonpath.ps1'
+[9.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/nav2_launch/share/nav2_launch/hook/pythonpath.dsv'
+[9.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/nav2_launch/share/nav2_launch/hook/pythonpath.sh'
+[9.179s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/nav2_launch/bin'
+[9.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_launch)
+[9.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/nav2_launch/share/nav2_launch/package.ps1'
+[9.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/src/nav2_launch' returned '0': PYTHONPATH=/home/samar/takwa_ws/build/nav2_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav2_launch build --build-base /home/samar/takwa_ws/build/nav2_launch/build install --record /home/samar/takwa_ws/build/nav2_launch/install.log --single-version-externally-managed install_data
+[9.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samar/takwa_ws/install/nav2_launch/share/nav2_launch/package.dsv'
+[9.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/nav2_launch/share/nav2_launch/package.sh'
+[9.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/nav2_launch/share/nav2_launch/package.bash'
+[9.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/nav2_launch/share/nav2_launch/package.zsh'
+[9.183s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samar/takwa_ws/install/nav2_launch/share/colcon-core/packages/nav2_launch)
+[9.184s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/samar/takwa_ws/src/slam_launch' with build type 'ament_python'
+[9.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_launch', 'ament_prefix_path')
+[9.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/slam_launch/share/slam_launch/hook/ament_prefix_path.ps1'
+[9.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/slam_launch/share/slam_launch/hook/ament_prefix_path.dsv'
+[9.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/slam_launch/share/slam_launch/hook/ament_prefix_path.sh'
+[9.187s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.187s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.940s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/samar/takwa_ws/src/slam_launch'
+[9.941s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.941s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/src/slam_launch': PYTHONPATH=/home/samar/takwa_ws/build/slam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/slam_launch build --build-base /home/samar/takwa_ws/build/slam_launch/build install --record /home/samar/takwa_ws/build/slam_launch/install.log --single-version-externally-managed install_data
+[12.781s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/slam_launch' for CMake module files
+[12.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/src/slam_launch' returned '0': PYTHONPATH=/home/samar/takwa_ws/build/slam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/slam_launch build --build-base /home/samar/takwa_ws/build/slam_launch/build install --record /home/samar/takwa_ws/build/slam_launch/install.log --single-version-externally-managed install_data
+[12.783s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/slam_launch' for CMake config files
+[12.784s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/slam_launch/lib'
+[12.784s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/slam_launch/bin'
+[12.784s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/slam_launch/lib/pkgconfig/slam_launch.pc'
+[12.785s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages'
+[12.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_launch', 'pythonpath')
+[12.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/slam_launch/share/slam_launch/hook/pythonpath.ps1'
+[12.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/slam_launch/share/slam_launch/hook/pythonpath.dsv'
+[12.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/slam_launch/share/slam_launch/hook/pythonpath.sh'
+[12.787s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/slam_launch/bin'
+[12.787s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_launch)
+[12.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/slam_launch/share/slam_launch/package.ps1'
+[12.788s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samar/takwa_ws/install/slam_launch/share/slam_launch/package.dsv'
+[12.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/slam_launch/share/slam_launch/package.sh'
+[12.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/slam_launch/share/slam_launch/package.bash'
+[12.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/slam_launch/share/slam_launch/package.zsh'
+[12.791s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samar/takwa_ws/install/slam_launch/share/colcon-core/packages/slam_launch)
+[12.791s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samar/takwa_ws/src/pkg-tbot/tbot_node' with build type 'ament_cmake'
+[12.792s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samar/takwa_ws/src/pkg-tbot/tbot_node'
+[12.793s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.793s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/build/tbot_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake /home/samar/takwa_ws/src/pkg-tbot/tbot_node -DCMAKE_INSTALL_PREFIX=/home/samar/takwa_ws/install/tbot_node
+[13.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/build/kobuki_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake /home/samar/takwa_ws/src/pkg-tbot/kobuki_ros_interfaces -DCMAKE_INSTALL_PREFIX=/home/samar/takwa_ws/install/kobuki_ros_interfaces
+[13.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/build/kobuki_ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --build /home/samar/takwa_ws/build/kobuki_ros_interfaces -- -j4 -l4
+[14.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/build/tbot_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake /home/samar/takwa_ws/src/pkg-tbot/tbot_node -DCMAKE_INSTALL_PREFIX=/home/samar/takwa_ws/install/tbot_node
+[14.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/build/tbot_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --build /home/samar/takwa_ws/build/tbot_node -- -j4 -l4
+[14.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/build/tbot_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --build /home/samar/takwa_ws/build/tbot_node -- -j4 -l4
+[14.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/build/pkg-nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake /home/samar/takwa_ws/src/pkg-nav -DCMAKE_INSTALL_PREFIX=/home/samar/takwa_ws/install/pkg-nav
+[14.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/build/pkg-nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --build /home/samar/takwa_ws/build/pkg-nav -- -j4 -l4
+[14.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/build/tbot_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --install /home/samar/takwa_ws/build/tbot_node
+[14.729s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tbot_node)
+[14.730s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/tbot_node' for CMake module files
+[14.732s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/tbot_node' for CMake config files
+[14.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('tbot_node', 'cmake_prefix_path')
+[14.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/tbot_node/share/tbot_node/hook/cmake_prefix_path.ps1'
+[14.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/tbot_node/share/tbot_node/hook/cmake_prefix_path.dsv'
+[14.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/build/tbot_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --install /home/samar/takwa_ws/build/tbot_node
+[14.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/tbot_node/share/tbot_node/hook/cmake_prefix_path.sh'
+[14.737s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/tbot_node/bin'
+[14.737s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/tbot_node/lib/pkgconfig/tbot_node.pc'
+[14.737s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/tbot_node/lib/python3.10/site-packages'
+[14.738s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/tbot_node/bin'
+[14.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/tbot_node/share/tbot_node/package.ps1'
+[14.740s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samar/takwa_ws/install/tbot_node/share/tbot_node/package.dsv'
+[14.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/tbot_node/share/tbot_node/package.sh'
+[14.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/tbot_node/share/tbot_node/package.bash'
+[14.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/tbot_node/share/tbot_node/package.zsh'
+[14.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samar/takwa_ws/install/tbot_node/share/colcon-core/packages/tbot_node)
+[14.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/build/pkg-nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --build /home/samar/takwa_ws/build/pkg-nav -- -j4 -l4
+[14.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/build/pkg-nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --install /home/samar/takwa_ws/build/pkg-nav
+[14.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tbot_node)
+[14.812s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/tbot_node' for CMake module files
+[14.815s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/tbot_node' for CMake config files
+[14.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('tbot_node', 'cmake_prefix_path')
+[14.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/tbot_node/share/tbot_node/hook/cmake_prefix_path.ps1'
+[14.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/tbot_node/share/tbot_node/hook/cmake_prefix_path.dsv'
+[14.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/tbot_node/share/tbot_node/hook/cmake_prefix_path.sh'
+[14.821s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/tbot_node/bin'
+[14.821s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/tbot_node/lib/pkgconfig/tbot_node.pc'
+[14.822s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/tbot_node/lib/python3.10/site-packages'
+[14.822s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/tbot_node/bin'
+[14.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/tbot_node/share/tbot_node/package.ps1'
+[14.827s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samar/takwa_ws/install/tbot_node/share/tbot_node/package.dsv'
+[14.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/tbot_node/share/tbot_node/package.sh'
+[14.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/tbot_node/share/tbot_node/package.bash'
+[14.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/tbot_node/share/tbot_node/package.zsh'
+[14.831s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samar/takwa_ws/install/tbot_node/share/colcon-core/packages/tbot_node)
+[14.855s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg-nav)
+[14.856s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/pkg-nav' for CMake module files
+[14.857s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/pkg-nav' for CMake config files
+[14.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg-nav', 'cmake_prefix_path')
+[14.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/hook/cmake_prefix_path.ps1'
+[14.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/build/pkg-nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --install /home/samar/takwa_ws/build/pkg-nav
+[14.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/hook/cmake_prefix_path.dsv'
+[14.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/hook/cmake_prefix_path.sh'
+[14.860s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/pkg-nav/lib'
+[14.860s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/pkg-nav/bin'
+[14.860s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/pkg-nav/lib/pkgconfig/pkg-nav.pc'
+[14.860s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/pkg-nav/lib/python3.10/site-packages'
+[14.861s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/pkg-nav/bin'
+[14.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/package.ps1'
+[14.862s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/package.dsv'
+[14.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/package.sh'
+[14.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/package.bash'
+[14.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/package.zsh'
+[14.865s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samar/takwa_ws/install/pkg-nav/share/colcon-core/packages/pkg-nav)
+[14.900s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg-nav)
+[14.900s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/pkg-nav' for CMake module files
+[14.901s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/pkg-nav' for CMake config files
+[14.901s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg-nav', 'cmake_prefix_path')
+[14.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/hook/cmake_prefix_path.ps1'
+[14.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/hook/cmake_prefix_path.dsv'
+[14.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/hook/cmake_prefix_path.sh'
+[14.903s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/pkg-nav/lib'
+[14.903s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/pkg-nav/bin'
+[14.903s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/pkg-nav/lib/pkgconfig/pkg-nav.pc'
+[14.904s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/pkg-nav/lib/python3.10/site-packages'
+[14.904s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/pkg-nav/bin'
+[14.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/package.ps1'
+[14.906s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/package.dsv'
+[14.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/package.sh'
+[14.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/package.bash'
+[14.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/package.zsh'
+[14.908s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samar/takwa_ws/install/pkg-nav/share/colcon-core/packages/pkg-nav)
+[45.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/build/kobuki_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --build /home/samar/takwa_ws/build/kobuki_core -- -j4 -l4
+[45.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/build/kobuki_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --install /home/samar/takwa_ws/build/kobuki_core
+[45.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kobuki_core)
+[45.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/build/kobuki_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --install /home/samar/takwa_ws/build/kobuki_core
+[45.532s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_core' for CMake module files
+[45.534s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_core' for CMake config files
+[45.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_core', 'cmake_prefix_path')
+[45.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/cmake_prefix_path.ps1'
+[45.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/cmake_prefix_path.dsv'
+[45.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/cmake_prefix_path.sh'
+[45.537s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_core/lib'
+[45.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_core', 'ld_library_path_lib')
+[45.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/ld_library_path_lib.ps1'
+[45.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/ld_library_path_lib.dsv'
+[45.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/ld_library_path_lib.sh'
+[45.541s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_core/bin'
+[45.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_core', 'path')
+[45.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/path.ps1'
+[45.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/path.dsv'
+[45.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/path.sh'
+[45.543s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_core/lib/pkgconfig/kobuki_core.pc'
+[45.544s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_core/lib/python3.10/site-packages'
+[45.545s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_core/bin'
+[45.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_core', 'pythonscriptspath')
+[45.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/pythonscriptspath.ps1'
+[45.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/pythonscriptspath.dsv'
+[45.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/pythonscriptspath.sh'
+[45.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/package.ps1'
+[45.551s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/package.dsv'
+[45.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/package.sh'
+[45.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/package.bash'
+[45.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/package.zsh'
+[45.557s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samar/takwa_ws/install/kobuki_core/share/colcon-core/packages/kobuki_core)
+[45.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kobuki_core)
+[45.616s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_core' for CMake module files
+[45.617s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_core' for CMake config files
+[45.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_core', 'cmake_prefix_path')
+[45.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/cmake_prefix_path.ps1'
+[45.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/cmake_prefix_path.dsv'
+[45.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/cmake_prefix_path.sh'
+[45.621s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_core/lib'
+[45.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_core', 'ld_library_path_lib')
+[45.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/ld_library_path_lib.ps1'
+[45.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/ld_library_path_lib.dsv'
+[45.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/ld_library_path_lib.sh'
+[45.625s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_core/bin'
+[45.625s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_core', 'path')
+[45.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/path.ps1'
+[45.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/path.dsv'
+[45.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/path.sh'
+[45.628s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_core/lib/pkgconfig/kobuki_core.pc'
+[45.628s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_core/lib/python3.10/site-packages'
+[45.629s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_core/bin'
+[45.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_core', 'pythonscriptspath')
+[45.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/pythonscriptspath.ps1'
+[45.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/pythonscriptspath.dsv'
+[45.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/hook/pythonscriptspath.sh'
+[45.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/package.ps1'
+[45.635s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/package.dsv'
+[45.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/package.sh'
+[45.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/package.bash'
+[45.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/package.zsh'
+[45.640s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samar/takwa_ws/install/kobuki_core/share/colcon-core/packages/kobuki_core)
+[71.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/build/kobuki_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --build /home/samar/takwa_ws/build/kobuki_ros_interfaces -- -j4 -l4
+[71.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/build/kobuki_ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --install /home/samar/takwa_ws/build/kobuki_ros_interfaces
+[71.926s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kobuki_ros_interfaces)
+[71.927s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros_interfaces' for CMake module files
+[71.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/build/kobuki_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --install /home/samar/takwa_ws/build/kobuki_ros_interfaces
+[71.928s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros_interfaces' for CMake config files
+[71.929s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_ros_interfaces', 'cmake_prefix_path')
+[71.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/hook/cmake_prefix_path.ps1'
+[71.930s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/hook/cmake_prefix_path.dsv'
+[71.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/hook/cmake_prefix_path.sh'
+[71.930s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib'
+[71.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_ros_interfaces', 'ld_library_path_lib')
+[71.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/hook/ld_library_path_lib.ps1'
+[71.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/hook/ld_library_path_lib.dsv'
+[71.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/hook/ld_library_path_lib.sh'
+[71.931s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros_interfaces/bin'
+[71.931s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/pkgconfig/kobuki_ros_interfaces.pc'
+[71.932s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/python3.10/site-packages'
+[71.932s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_ros_interfaces', 'pythonpath')
+[71.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/hook/pythonpath.ps1'
+[71.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/hook/pythonpath.dsv'
+[71.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/hook/pythonpath.sh'
+[71.933s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros_interfaces/bin'
+[71.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/package.ps1'
+[71.934s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/package.dsv'
+[71.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/package.sh'
+[71.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/package.bash'
+[71.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/package.zsh'
+[71.935s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/colcon-core/packages/kobuki_ros_interfaces)
+[72.562s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kobuki_ros_interfaces)
+[72.562s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros_interfaces' for CMake module files
+[72.563s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros_interfaces' for CMake config files
+[72.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_ros_interfaces', 'cmake_prefix_path')
+[72.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/hook/cmake_prefix_path.ps1'
+[72.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/hook/cmake_prefix_path.dsv'
+[72.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/hook/cmake_prefix_path.sh'
+[72.565s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib'
+[72.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_ros_interfaces', 'ld_library_path_lib')
+[72.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/hook/ld_library_path_lib.ps1'
+[72.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/hook/ld_library_path_lib.dsv'
+[72.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/hook/ld_library_path_lib.sh'
+[72.566s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros_interfaces/bin'
+[72.566s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/pkgconfig/kobuki_ros_interfaces.pc'
+[72.567s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/python3.10/site-packages'
+[72.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_ros_interfaces', 'pythonpath')
+[72.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/hook/pythonpath.ps1'
+[72.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/hook/pythonpath.dsv'
+[72.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/hook/pythonpath.sh'
+[72.568s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros_interfaces/bin'
+[72.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/package.ps1'
+[72.569s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/package.dsv'
+[72.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/package.sh'
+[72.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/package.bash'
+[72.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/package.zsh'
+[72.571s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samar/takwa_ws/install/kobuki_ros_interfaces/share/colcon-core/packages/kobuki_ros_interfaces)
+[72.571s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samar/takwa_ws/src/pkg-tbot/kobuki_node' with build type 'ament_cmake'
+[72.571s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samar/takwa_ws/src/pkg-tbot/kobuki_node'
+[72.571s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[72.571s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[72.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/build/kobuki_node': CMAKE_PREFIX_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces:/home/samar/takwa_ws/install/kobuki_core:/home/samar/takwa_ws/install/tbot_node:/home/samar/takwa_ws/install/pkg-nav:/home/samar/takwa_ws/install/kobuki_ros:/home/samar/takwa_ws/install/kobuki_node:/home/samar/mb6-space/install/draft_pkg:/home/samar/mb6-space/install/basic_node:/home/samar/mb6-space/install/basic_msgs:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron LD_LIBRARY_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib:/home/samar/takwa_ws/install/kobuki_core/lib:/home/samar/takwa_ws/install/kobuki_node/lib:/home/samar/mb6-space/install/basic_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/python3.10/site-packages:/home/samar/takwa_ws/build/mon_package:/home/samar/takwa_ws/build/follow_waypoints:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/samar/mb6-space/install/basic_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake /home/samar/takwa_ws/src/pkg-tbot/kobuki_node -DCMAKE_INSTALL_PREFIX=/home/samar/takwa_ws/install/kobuki_node
+[75.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/build/kobuki_node' returned '0': CMAKE_PREFIX_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces:/home/samar/takwa_ws/install/kobuki_core:/home/samar/takwa_ws/install/tbot_node:/home/samar/takwa_ws/install/pkg-nav:/home/samar/takwa_ws/install/kobuki_ros:/home/samar/takwa_ws/install/kobuki_node:/home/samar/mb6-space/install/draft_pkg:/home/samar/mb6-space/install/basic_node:/home/samar/mb6-space/install/basic_msgs:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron LD_LIBRARY_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib:/home/samar/takwa_ws/install/kobuki_core/lib:/home/samar/takwa_ws/install/kobuki_node/lib:/home/samar/mb6-space/install/basic_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/python3.10/site-packages:/home/samar/takwa_ws/build/mon_package:/home/samar/takwa_ws/build/follow_waypoints:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/samar/mb6-space/install/basic_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake /home/samar/takwa_ws/src/pkg-tbot/kobuki_node -DCMAKE_INSTALL_PREFIX=/home/samar/takwa_ws/install/kobuki_node
+[75.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/build/kobuki_node': CMAKE_PREFIX_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces:/home/samar/takwa_ws/install/kobuki_core:/home/samar/takwa_ws/install/tbot_node:/home/samar/takwa_ws/install/pkg-nav:/home/samar/takwa_ws/install/kobuki_ros:/home/samar/takwa_ws/install/kobuki_node:/home/samar/mb6-space/install/draft_pkg:/home/samar/mb6-space/install/basic_node:/home/samar/mb6-space/install/basic_msgs:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron LD_LIBRARY_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib:/home/samar/takwa_ws/install/kobuki_core/lib:/home/samar/takwa_ws/install/kobuki_node/lib:/home/samar/mb6-space/install/basic_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/python3.10/site-packages:/home/samar/takwa_ws/build/mon_package:/home/samar/takwa_ws/build/follow_waypoints:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/samar/mb6-space/install/basic_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/samar/takwa_ws/build/kobuki_node -- -j4 -l4
+[121.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/build/kobuki_node' returned '0': CMAKE_PREFIX_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces:/home/samar/takwa_ws/install/kobuki_core:/home/samar/takwa_ws/install/tbot_node:/home/samar/takwa_ws/install/pkg-nav:/home/samar/takwa_ws/install/kobuki_ros:/home/samar/takwa_ws/install/kobuki_node:/home/samar/mb6-space/install/draft_pkg:/home/samar/mb6-space/install/basic_node:/home/samar/mb6-space/install/basic_msgs:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron LD_LIBRARY_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib:/home/samar/takwa_ws/install/kobuki_core/lib:/home/samar/takwa_ws/install/kobuki_node/lib:/home/samar/mb6-space/install/basic_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/python3.10/site-packages:/home/samar/takwa_ws/build/mon_package:/home/samar/takwa_ws/build/follow_waypoints:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/samar/mb6-space/install/basic_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/samar/takwa_ws/build/kobuki_node -- -j4 -l4
+[121.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/build/kobuki_node': CMAKE_PREFIX_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces:/home/samar/takwa_ws/install/kobuki_core:/home/samar/takwa_ws/install/tbot_node:/home/samar/takwa_ws/install/pkg-nav:/home/samar/takwa_ws/install/kobuki_ros:/home/samar/takwa_ws/install/kobuki_node:/home/samar/mb6-space/install/draft_pkg:/home/samar/mb6-space/install/basic_node:/home/samar/mb6-space/install/basic_msgs:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron LD_LIBRARY_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib:/home/samar/takwa_ws/install/kobuki_core/lib:/home/samar/takwa_ws/install/kobuki_node/lib:/home/samar/mb6-space/install/basic_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/python3.10/site-packages:/home/samar/takwa_ws/build/mon_package:/home/samar/takwa_ws/build/follow_waypoints:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/samar/mb6-space/install/basic_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/samar/takwa_ws/build/kobuki_node
+[121.959s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kobuki_node)
+[121.959s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_node' for CMake module files
+[121.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/build/kobuki_node' returned '0': CMAKE_PREFIX_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces:/home/samar/takwa_ws/install/kobuki_core:/home/samar/takwa_ws/install/tbot_node:/home/samar/takwa_ws/install/pkg-nav:/home/samar/takwa_ws/install/kobuki_ros:/home/samar/takwa_ws/install/kobuki_node:/home/samar/mb6-space/install/draft_pkg:/home/samar/mb6-space/install/basic_node:/home/samar/mb6-space/install/basic_msgs:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron LD_LIBRARY_PATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib:/home/samar/takwa_ws/install/kobuki_core/lib:/home/samar/takwa_ws/install/kobuki_node/lib:/home/samar/mb6-space/install/basic_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/python3.10/site-packages:/home/samar/takwa_ws/build/mon_package:/home/samar/takwa_ws/build/follow_waypoints:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/samar/mb6-space/install/basic_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/samar/takwa_ws/build/kobuki_node
+[121.960s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_node' for CMake config files
+[121.960s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_node', 'cmake_prefix_path')
+[121.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/hook/cmake_prefix_path.ps1'
+[121.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/hook/cmake_prefix_path.dsv'
+[121.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/hook/cmake_prefix_path.sh'
+[121.962s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_node/lib'
+[121.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_node', 'ld_library_path_lib')
+[121.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/hook/ld_library_path_lib.ps1'
+[121.962s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/hook/ld_library_path_lib.dsv'
+[121.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/hook/ld_library_path_lib.sh'
+[121.963s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_node/bin'
+[121.963s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_node/lib/pkgconfig/kobuki_node.pc'
+[121.963s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_node/lib/python3.10/site-packages'
+[121.963s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_node/bin'
+[121.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/package.ps1'
+[121.964s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/package.dsv'
+[121.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/package.sh'
+[121.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/package.bash'
+[121.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/package.zsh'
+[121.966s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samar/takwa_ws/install/kobuki_node/share/colcon-core/packages/kobuki_node)
+[122.008s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kobuki_node)
+[122.008s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_node' for CMake module files
+[122.008s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_node' for CMake config files
+[122.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_node', 'cmake_prefix_path')
+[122.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/hook/cmake_prefix_path.ps1'
+[122.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/hook/cmake_prefix_path.dsv'
+[122.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/hook/cmake_prefix_path.sh'
+[122.010s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_node/lib'
+[122.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_node', 'ld_library_path_lib')
+[122.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/hook/ld_library_path_lib.ps1'
+[122.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/hook/ld_library_path_lib.dsv'
+[122.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/hook/ld_library_path_lib.sh'
+[122.012s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_node/bin'
+[122.012s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_node/lib/pkgconfig/kobuki_node.pc'
+[122.012s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_node/lib/python3.10/site-packages'
+[122.012s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_node/bin'
+[122.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/package.ps1'
+[122.013s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/package.dsv'
+[122.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/package.sh'
+[122.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/package.bash'
+[122.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_node/share/kobuki_node/package.zsh'
+[122.015s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samar/takwa_ws/install/kobuki_node/share/colcon-core/packages/kobuki_node)
+[122.015s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros' with build type 'ament_cmake'
+[122.015s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samar/takwa_ws/src/pkg-tbot/kobuki_ros'
+[122.016s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[122.016s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[122.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/build/kobuki_ros': CMAKE_PREFIX_PATH=/home/samar/takwa_ws/install/kobuki_node:/home/samar/takwa_ws/install/kobuki_ros_interfaces:/home/samar/takwa_ws/install/kobuki_core:/home/samar/takwa_ws/install/tbot_node:/home/samar/takwa_ws/install/pkg-nav:/home/samar/takwa_ws/install/kobuki_ros:/home/samar/mb6-space/install/draft_pkg:/home/samar/mb6-space/install/basic_node:/home/samar/mb6-space/install/basic_msgs:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron PYTHONPATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/python3.10/site-packages:/home/samar/takwa_ws/build/mon_package:/home/samar/takwa_ws/build/follow_waypoints:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/samar/mb6-space/install/basic_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake /home/samar/takwa_ws/src/pkg-tbot/kobuki_ros -DCMAKE_INSTALL_PREFIX=/home/samar/takwa_ws/install/kobuki_ros
+[123.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/build/kobuki_ros' returned '0': CMAKE_PREFIX_PATH=/home/samar/takwa_ws/install/kobuki_node:/home/samar/takwa_ws/install/kobuki_ros_interfaces:/home/samar/takwa_ws/install/kobuki_core:/home/samar/takwa_ws/install/tbot_node:/home/samar/takwa_ws/install/pkg-nav:/home/samar/takwa_ws/install/kobuki_ros:/home/samar/mb6-space/install/draft_pkg:/home/samar/mb6-space/install/basic_node:/home/samar/mb6-space/install/basic_msgs:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron PYTHONPATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/python3.10/site-packages:/home/samar/takwa_ws/build/mon_package:/home/samar/takwa_ws/build/follow_waypoints:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/samar/mb6-space/install/basic_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake /home/samar/takwa_ws/src/pkg-tbot/kobuki_ros -DCMAKE_INSTALL_PREFIX=/home/samar/takwa_ws/install/kobuki_ros
+[123.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/build/kobuki_ros': CMAKE_PREFIX_PATH=/home/samar/takwa_ws/install/kobuki_node:/home/samar/takwa_ws/install/kobuki_ros_interfaces:/home/samar/takwa_ws/install/kobuki_core:/home/samar/takwa_ws/install/tbot_node:/home/samar/takwa_ws/install/pkg-nav:/home/samar/takwa_ws/install/kobuki_ros:/home/samar/mb6-space/install/draft_pkg:/home/samar/mb6-space/install/basic_node:/home/samar/mb6-space/install/basic_msgs:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron PYTHONPATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/python3.10/site-packages:/home/samar/takwa_ws/build/mon_package:/home/samar/takwa_ws/build/follow_waypoints:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/samar/mb6-space/install/basic_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/samar/takwa_ws/build/kobuki_ros -- -j4 -l4
+[123.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/build/kobuki_ros' returned '0': CMAKE_PREFIX_PATH=/home/samar/takwa_ws/install/kobuki_node:/home/samar/takwa_ws/install/kobuki_ros_interfaces:/home/samar/takwa_ws/install/kobuki_core:/home/samar/takwa_ws/install/tbot_node:/home/samar/takwa_ws/install/pkg-nav:/home/samar/takwa_ws/install/kobuki_ros:/home/samar/mb6-space/install/draft_pkg:/home/samar/mb6-space/install/basic_node:/home/samar/mb6-space/install/basic_msgs:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron PYTHONPATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/python3.10/site-packages:/home/samar/takwa_ws/build/mon_package:/home/samar/takwa_ws/build/follow_waypoints:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/samar/mb6-space/install/basic_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/samar/takwa_ws/build/kobuki_ros -- -j4 -l4
+[123.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samar/takwa_ws/build/kobuki_ros': CMAKE_PREFIX_PATH=/home/samar/takwa_ws/install/kobuki_node:/home/samar/takwa_ws/install/kobuki_ros_interfaces:/home/samar/takwa_ws/install/kobuki_core:/home/samar/takwa_ws/install/tbot_node:/home/samar/takwa_ws/install/pkg-nav:/home/samar/takwa_ws/install/kobuki_ros:/home/samar/mb6-space/install/draft_pkg:/home/samar/mb6-space/install/basic_node:/home/samar/mb6-space/install/basic_msgs:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron PYTHONPATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/python3.10/site-packages:/home/samar/takwa_ws/build/mon_package:/home/samar/takwa_ws/build/follow_waypoints:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/samar/mb6-space/install/basic_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/samar/takwa_ws/build/kobuki_ros
+[123.123s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kobuki_ros)
+[123.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samar/takwa_ws/build/kobuki_ros' returned '0': CMAKE_PREFIX_PATH=/home/samar/takwa_ws/install/kobuki_node:/home/samar/takwa_ws/install/kobuki_ros_interfaces:/home/samar/takwa_ws/install/kobuki_core:/home/samar/takwa_ws/install/tbot_node:/home/samar/takwa_ws/install/pkg-nav:/home/samar/takwa_ws/install/kobuki_ros:/home/samar/mb6-space/install/draft_pkg:/home/samar/mb6-space/install/basic_node:/home/samar/mb6-space/install/basic_msgs:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron PYTHONPATH=/home/samar/takwa_ws/install/kobuki_ros_interfaces/lib/python3.10/site-packages:/home/samar/takwa_ws/build/mon_package:/home/samar/takwa_ws/build/follow_waypoints:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/nav2_launch/lib/python3.10/site-packages:/home/samar/takwa_ws/install/mon_package/lib/python3.10/site-packages:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:/home/samar/mb6-space/install/basic_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/samar/takwa_ws/build/kobuki_ros
+[123.124s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros' for CMake module files
+[123.124s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros' for CMake config files
+[123.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_ros', 'cmake_prefix_path')
+[123.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_ros/share/kobuki_ros/hook/cmake_prefix_path.ps1'
+[123.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/kobuki_ros/share/kobuki_ros/hook/cmake_prefix_path.dsv'
+[123.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_ros/share/kobuki_ros/hook/cmake_prefix_path.sh'
+[123.126s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros/bin'
+[123.126s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros/lib/pkgconfig/kobuki_ros.pc'
+[123.126s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros/lib/python3.10/site-packages'
+[123.126s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros/bin'
+[123.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_ros/share/kobuki_ros/package.ps1'
+[123.127s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samar/takwa_ws/install/kobuki_ros/share/kobuki_ros/package.dsv'
+[123.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_ros/share/kobuki_ros/package.sh'
+[123.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_ros/share/kobuki_ros/package.bash'
+[123.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_ros/share/kobuki_ros/package.zsh'
+[123.128s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samar/takwa_ws/install/kobuki_ros/share/colcon-core/packages/kobuki_ros)
+[123.154s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kobuki_ros)
+[123.154s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros' for CMake module files
+[123.155s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros' for CMake config files
+[123.155s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_ros', 'cmake_prefix_path')
+[123.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_ros/share/kobuki_ros/hook/cmake_prefix_path.ps1'
+[123.156s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samar/takwa_ws/install/kobuki_ros/share/kobuki_ros/hook/cmake_prefix_path.dsv'
+[123.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samar/takwa_ws/install/kobuki_ros/share/kobuki_ros/hook/cmake_prefix_path.sh'
+[123.157s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros/bin'
+[123.157s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros/lib/pkgconfig/kobuki_ros.pc'
+[123.157s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros/lib/python3.10/site-packages'
+[123.157s] Level 1:colcon.colcon_core.environment:checking '/home/samar/takwa_ws/install/kobuki_ros/bin'
+[123.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_ros/share/kobuki_ros/package.ps1'
+[123.158s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samar/takwa_ws/install/kobuki_ros/share/kobuki_ros/package.dsv'
+[123.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_ros/share/kobuki_ros/package.sh'
+[123.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_ros/share/kobuki_ros/package.bash'
+[123.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/samar/takwa_ws/install/kobuki_ros/share/kobuki_ros/package.zsh'
+[123.160s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samar/takwa_ws/install/kobuki_ros/share/colcon-core/packages/kobuki_ros)
+[123.161s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[123.161s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[123.161s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[123.161s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[123.169s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[123.169s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[123.169s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[123.169s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[123.184s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[123.185s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samar/takwa_ws/install/local_setup.ps1'
+[123.186s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/samar/takwa_ws/install/_local_setup_util_ps1.py'
+[123.188s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samar/takwa_ws/install/setup.ps1'
+[123.192s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samar/takwa_ws/install/local_setup.sh'
+[123.193s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/samar/takwa_ws/install/_local_setup_util_sh.py'
+[123.193s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samar/takwa_ws/install/setup.sh'
+[123.196s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samar/takwa_ws/install/local_setup.bash'
+[123.196s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samar/takwa_ws/install/setup.bash'
+[123.198s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samar/takwa_ws/install/local_setup.zsh'
+[123.198s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samar/takwa_ws/install/setup.zsh'

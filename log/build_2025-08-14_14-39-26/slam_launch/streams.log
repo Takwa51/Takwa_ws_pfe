@@ -1,0 +1,22 @@
+[1.301s] Invoking command in '/home/samar/takwa_ws/src/slam_launch': PYTHONPATH=/home/samar/takwa_ws/build/slam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/slam_launch build --build-base /home/samar/takwa_ws/build/slam_launch/build install --record /home/samar/takwa_ws/build/slam_launch/install.log --single-version-externally-managed install_data
+[1.599s] running egg_info
+[1.619s] writing ../../build/slam_launch/slam_launch.egg-info/PKG-INFO
+[1.620s] writing dependency_links to ../../build/slam_launch/slam_launch.egg-info/dependency_links.txt
+[1.620s] writing requirements to ../../build/slam_launch/slam_launch.egg-info/requires.txt
+[1.620s] writing top-level names to ../../build/slam_launch/slam_launch.egg-info/top_level.txt
+[1.805s] reading manifest file '../../build/slam_launch/slam_launch.egg-info/SOURCES.txt'
+[1.806s] writing manifest file '../../build/slam_launch/slam_launch.egg-info/SOURCES.txt'
+[1.807s] running build
+[1.807s] running build_py
+[1.807s] copying slam_launch/__init__.py -> /home/samar/takwa_ws/build/slam_launch/build/lib/slam_launch
+[1.807s] running install
+[1.812s] running install_lib
+[1.834s] running install_data
+[1.835s] copying resource/slam_launch -> /home/samar/takwa_ws/install/slam_launch/share/ament_index/resource_index/packages
+[1.835s] copying package.xml -> /home/samar/takwa_ws/install/slam_launch/share/slam_launch
+[1.835s] running install_egg_info
+[1.856s] removing '/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages/slam_launch-0.0.0-py3.10.egg-info' (and everything under it)
+[1.856s] Copying ../../build/slam_launch/slam_launch.egg-info to /home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages/slam_launch-0.0.0-py3.10.egg-info
+[1.857s] running install_scripts
+[1.904s] writing list of installed files to '/home/samar/takwa_ws/build/slam_launch/install.log'
+[1.939s] Invoked command in '/home/samar/takwa_ws/src/slam_launch' returned '0': PYTHONPATH=/home/samar/takwa_ws/build/slam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samar/takwa_ws/install/slam_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/slam_launch build --build-base /home/samar/takwa_ws/build/slam_launch/build install --record /home/samar/takwa_ws/build/slam_launch/install.log --single-version-externally-managed install_data

@@ -1,0 +1,72 @@
+[0.038s] Invoking command in '/home/samar/takwa_ws/build/pkg-nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake /home/samar/takwa_ws/src/pkg-nav -DCMAKE_INSTALL_PREFIX=/home/samar/takwa_ws/install/pkg-nav
+[0.220s] -- The C compiler identification is GNU 11.4.0
+[0.426s] -- The CXX compiler identification is GNU 11.4.0
+[0.455s] -- Detecting C compiler ABI info
+[0.641s] -- Detecting C compiler ABI info - done
+[0.663s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.663s] -- Detecting C compile features
+[0.665s] -- Detecting C compile features - done
+[0.673s] -- Detecting CXX compiler ABI info
+[0.834s] -- Detecting CXX compiler ABI info - done
+[0.873s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.876s] -- Detecting CXX compile features
+[0.876s] -- Detecting CXX compile features - done
+[0.894s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.229s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[6.830s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[6.861s] -- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)
+[6.948s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[6.980s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[7.018s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.065s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.311s] -- Found rclcpp: 21.0.6 (/opt/ros/iron/share/rclcpp/cmake)
+[7.690s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[7.697s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[7.939s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.001s] -- Found FastRTPS: /opt/ros/iron/include  
+[8.097s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.560s] -- Found rclcpp_components: 21.0.6 (/opt/ros/iron/share/rclcpp_components/cmake)
+[8.875s] -- Found rclpy: 4.1.5 (/opt/ros/iron/share/rclpy/cmake)
+[9.593s] -- Configuring done
+[9.620s] -- Generating done
+[9.631s] -- Build files have been written to: /home/samar/takwa_ws/build/pkg-nav
+[9.653s] Invoked command in '/home/samar/takwa_ws/build/pkg-nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake /home/samar/takwa_ws/src/pkg-nav -DCMAKE_INSTALL_PREFIX=/home/samar/takwa_ws/install/pkg-nav
+[9.654s] Invoking command in '/home/samar/takwa_ws/build/pkg-nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --build /home/samar/takwa_ws/build/pkg-nav -- -j4 -l4
+[9.771s] Invoked command in '/home/samar/takwa_ws/build/pkg-nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --build /home/samar/takwa_ws/build/pkg-nav -- -j4 -l4
+[9.832s] Invoking command in '/home/samar/takwa_ws/build/pkg-nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --install /home/samar/takwa_ws/build/pkg-nav
+[9.848s] -- Install configuration: ""
+[9.848s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch
+[9.848s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/amcl.launch.py
+[9.852s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/urg_node.launch.py
+[9.853s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/multiplexer.launch.py
+[9.854s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/nav2.launch.py
+[9.855s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/slam.launch.py
+[9.855s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/joy.launch.py
+[9.856s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/localization.launch.py
+[9.856s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/load_map.launch.py
+[9.857s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//config
+[9.858s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//config/nav2_params.yaml
+[9.858s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//config/amcl_params.yaml
+[9.859s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//config/teleop.yaml
+[9.859s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//config/slam_params.yaml
+[9.860s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//config/multiplexer.yaml
+[9.861s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/lib/pkg-nav/human_following.py
+[9.862s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/lib/pkg-nav/goal_delay.py
+[9.864s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/lib/pkg-nav/velocity_multiplexer.py
+[9.865s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/lib/pkg-nav/sim_clock.py
+[9.873s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/ament_index/resource_index/package_run_dependencies/pkg-nav
+[9.873s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/ament_index/resource_index/parent_prefix_path/pkg-nav
+[9.873s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/environment/ament_prefix_path.sh
+[9.873s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/environment/ament_prefix_path.dsv
+[9.874s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/environment/path.sh
+[9.874s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/environment/path.dsv
+[9.874s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/local_setup.bash
+[9.874s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/local_setup.sh
+[9.874s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/local_setup.zsh
+[9.874s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/local_setup.dsv
+[9.875s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/package.dsv
+[9.875s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/ament_index/resource_index/packages/pkg-nav
+[9.875s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/cmake/pkg-navConfig.cmake
+[9.875s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/cmake/pkg-navConfig-version.cmake
+[9.875s] -- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/package.xml
+[9.879s] Invoked command in '/home/samar/takwa_ws/build/pkg-nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --install /home/samar/takwa_ws/build/pkg-nav

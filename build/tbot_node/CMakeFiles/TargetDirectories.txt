@@ -1,0 +1,9 @@
+/home/samar/takwa_ws/build/tbot_node/CMakeFiles/uninstall.dir
+/home/samar/takwa_ws/build/tbot_node/CMakeFiles/tbot_node_uninstall.dir
+/home/samar/takwa_ws/build/tbot_node/CMakeFiles/test.dir
+/home/samar/takwa_ws/build/tbot_node/CMakeFiles/edit_cache.dir
+/home/samar/takwa_ws/build/tbot_node/CMakeFiles/rebuild_cache.dir
+/home/samar/takwa_ws/build/tbot_node/CMakeFiles/list_install_components.dir
+/home/samar/takwa_ws/build/tbot_node/CMakeFiles/install.dir
+/home/samar/takwa_ws/build/tbot_node/CMakeFiles/install/local.dir
+/home/samar/takwa_ws/build/tbot_node/CMakeFiles/install/strip.dir

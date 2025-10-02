@@ -1,0 +1,25 @@
+[3.219s] Invoking command in '/home/samar/takwa_ws/src/follow_waypoints': PYTHONPATH=/home/samar/takwa_ws/build/follow_waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/follow_waypoints build --build-base /home/samar/takwa_ws/build/follow_waypoints/build install --record /home/samar/takwa_ws/build/follow_waypoints/install.log --single-version-externally-managed install_data
+[4.106s] running egg_info
+[4.172s] writing ../../build/follow_waypoints/follow_waypoints.egg-info/PKG-INFO
+[4.176s] writing dependency_links to ../../build/follow_waypoints/follow_waypoints.egg-info/dependency_links.txt
+[4.176s] writing entry points to ../../build/follow_waypoints/follow_waypoints.egg-info/entry_points.txt
+[4.176s] writing requirements to ../../build/follow_waypoints/follow_waypoints.egg-info/requires.txt
+[4.186s] writing top-level names to ../../build/follow_waypoints/follow_waypoints.egg-info/top_level.txt
+[4.628s] reading manifest file '../../build/follow_waypoints/follow_waypoints.egg-info/SOURCES.txt'
+[4.631s] writing manifest file '../../build/follow_waypoints/follow_waypoints.egg-info/SOURCES.txt'
+[4.631s] running build
+[4.631s] running build_py
+[4.633s] copying follow_waypoints/__init__.py -> /home/samar/takwa_ws/build/follow_waypoints/build/lib/follow_waypoints
+[4.633s] copying follow_waypoints/follow_waypoints.py -> /home/samar/takwa_ws/build/follow_waypoints/build/lib/follow_waypoints
+[4.633s] running install
+[4.646s] running install_lib
+[4.717s] running install_data
+[4.718s] copying resource/follow_waypoints -> /home/samar/takwa_ws/install/follow_waypoints/share/ament_index/resource_index/packages
+[4.718s] copying package.xml -> /home/samar/takwa_ws/install/follow_waypoints/share/follow_waypoints
+[4.718s] running install_egg_info
+[4.782s] removing '/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints-0.0.0-py3.10.egg-info' (and everything under it)
+[4.785s] Copying ../../build/follow_waypoints/follow_waypoints.egg-info to /home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints-0.0.0-py3.10.egg-info
+[4.785s] running install_scripts
+[4.943s] Installing follow_waypoints script to /home/samar/takwa_ws/install/follow_waypoints/lib/follow_waypoints
+[4.943s] writing list of installed files to '/home/samar/takwa_ws/build/follow_waypoints/install.log'
+[5.032s] Invoked command in '/home/samar/takwa_ws/src/follow_waypoints' returned '0': PYTHONPATH=/home/samar/takwa_ws/build/follow_waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samar/takwa_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/follow_waypoints build --build-base /home/samar/takwa_ws/build/follow_waypoints/build install --record /home/samar/takwa_ws/build/follow_waypoints/install.log --single-version-externally-managed install_data

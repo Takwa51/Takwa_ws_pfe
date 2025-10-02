@@ -1,0 +1,30 @@
+[0.061s] Invoking command in '/home/samar/takwa_ws/build/tbot_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --build /home/samar/takwa_ws/build/tbot_node -- -j4 -l4
+[0.156s] Invoked command in '/home/samar/takwa_ws/build/tbot_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --build /home/samar/takwa_ws/build/tbot_node -- -j4 -l4
+[0.224s] Invoking command in '/home/samar/takwa_ws/build/tbot_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --install /home/samar/takwa_ws/build/tbot_node
+[0.241s] -- Install configuration: ""
+[0.241s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/tbot_node//launch
+[0.241s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/tbot_node//launch/pibot_launch.yaml
+[0.242s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/tbot_node//launch/minimal_launch.yaml
+[0.242s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/tbot_node//launch/super_launch.yaml
+[0.242s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/tbot_node//urdf
+[0.242s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/tbot_node//urdf/kobuki_standalone.urdf
+[0.243s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/tbot_node//urdf/tbot.urdf
+[0.243s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/tbot_node//urdf/create.urdf
+[0.243s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/tbot_node//rviz
+[0.246s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/tbot_node//rviz/super.rviz
+[0.246s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/ament_index/resource_index/package_run_dependencies/tbot_node
+[0.246s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/ament_index/resource_index/parent_prefix_path/tbot_node
+[0.246s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/tbot_node/environment/ament_prefix_path.sh
+[0.246s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/tbot_node/environment/ament_prefix_path.dsv
+[0.246s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/tbot_node/environment/path.sh
+[0.247s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/tbot_node/environment/path.dsv
+[0.247s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/tbot_node/local_setup.bash
+[0.247s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/tbot_node/local_setup.sh
+[0.247s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/tbot_node/local_setup.zsh
+[0.247s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/tbot_node/local_setup.dsv
+[0.247s] -- Installing: /home/samar/takwa_ws/install/tbot_node/share/tbot_node/package.dsv
+[0.247s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/ament_index/resource_index/packages/tbot_node
+[0.247s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/tbot_node/cmake/tbot_nodeConfig.cmake
+[0.247s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/tbot_node/cmake/tbot_nodeConfig-version.cmake
+[0.247s] -- Up-to-date: /home/samar/takwa_ws/install/tbot_node/share/tbot_node/package.xml
+[0.252s] Invoked command in '/home/samar/takwa_ws/build/tbot_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --install /home/samar/takwa_ws/build/tbot_node

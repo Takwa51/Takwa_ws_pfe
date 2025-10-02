@@ -1,0 +1,66 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+-- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 21.0.6 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/iron/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 21.0.6 (/opt/ros/iron/share/rclcpp_components/cmake)
+-- Found rclpy: 4.1.5 (/opt/ros/iron/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/samar/takwa_ws/build/pkg-nav
+-- Install configuration: ""
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/amcl.launch.py
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/urg_node.launch.py
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/multiplexer.launch.py
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/nav2.launch.py
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/slam.launch.py
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/joy.launch.py
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/localization.launch.py
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//launch/load_map.launch.py
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//config
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//config/nav2_params.yaml
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//config/amcl_params.yaml
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//config/teleop.yaml
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//config/slam_params.yaml
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav//config/multiplexer.yaml
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/lib/pkg-nav/human_following.py
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/lib/pkg-nav/goal_delay.py
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/lib/pkg-nav/velocity_multiplexer.py
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/lib/pkg-nav/sim_clock.py
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/ament_index/resource_index/package_run_dependencies/pkg-nav
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/ament_index/resource_index/parent_prefix_path/pkg-nav
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/environment/ament_prefix_path.sh
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/environment/ament_prefix_path.dsv
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/environment/path.sh
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/environment/path.dsv
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/local_setup.bash
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/local_setup.sh
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/local_setup.zsh
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/local_setup.dsv
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/package.dsv
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/ament_index/resource_index/packages/pkg-nav
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/cmake/pkg-navConfig.cmake
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/cmake/pkg-navConfig-version.cmake
+-- Installing: /home/samar/takwa_ws/install/pkg-nav/share/pkg-nav/package.xml

@@ -1,0 +1,79 @@
+launch:
+
+# Lidar angle
+- arg:
+    name: "a_min"
+    default: "-1.8"
+- arg:
+    name: "a_max"
+    default: "1.8"
+
+# Kobuki Driver:
+- node:
+    pkg: "kobuki_node"
+    exec: "kobuki_ros_node"
+    name: "kobuki_robot"
+    param:
+    -
+      name: "device_port"
+      value: "/dev/kobuki"
+
+# Laser Range:
+- node:
+    pkg: "urg_node"
+    exec: "urg_node_driver"
+    name: "laser_range"
+    param:
+    -
+      name: "serial_port"
+      value: "/dev/ttyACM0"
+    - 
+      name: "laser_frame_id"
+      value: "laser_link"
+    -
+      name: "angle_min"
+      value: "$(var a_min)"
+    -
+      name: "angle_max"
+      value: "$(var a_max)"
+
+# State publisher:
+- node: 
+    pkg: "robot_state_publisher"
+    exec: "robot_state_publisher"
+    name: "tbot_state"
+    args: "$(find-pkg-share tbot_node)/urdf/tbot.urdf"
+    param:
+    - 
+      name: "use_sim_time"
+      value: False
+
+# Supervision:
+- node:
+    pkg: "basic_node"
+    exec: "multiplexer"
+    name: "multiplexer"
+    remap:
+    -
+        from: "cmd_vel"
+        to: "commands/velocity"
+
+# Driver:
+- node:
+    pkg: joy
+    exec: joy_node
+
+# Control:
+- node: 
+    pkg: teleop_twist_joy
+    exec: teleop_node
+    param:
+      - {name: "axis_linear.x", value: 1}
+      - {name: "scale_linear.x", value: 0.3}
+      - {name: "axis_angular.yaw",  value: 3}
+      - {name: "scale_angular.yaw", value: 2.0}
+    remap:
+     - 
+        from: "cmd_vel"
+        to: "multi/cmd_teleop"
+

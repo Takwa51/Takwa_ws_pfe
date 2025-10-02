@@ -1,0 +1,123 @@
+[0.055s] Invoking command in '/home/samar/takwa_ws/build/kobuki_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --build /home/samar/takwa_ws/build/kobuki_core -- -j4 -l4
+[2.253s] [ 41%] Built target kobuki_core
+[2.258s] [ 47%] Built target kobuki_core_demo_buttons
+[2.258s] [ 52%] Built target kobuki_core_demo_data_stream
+[2.258s] [ 58%] Built target kobuki_core_demo_log_levels
+[2.259s] [ 64%] Built target kobuki_core_demo_raw_data_stream
+[2.293s] [ 70%] Built target kobuki_core_demo_simple_loop
+[2.553s] [ 76%] Built target kobuki_core_demo_velocity_commands
+[2.852s] [ 82%] Built target kobuki_core_tool_version_info
+[3.394s] [ 88%] Built target kobuki_core_tool_simple_keyop
+[3.800s] [ 94%] Built target kobuki_core_demo_custom_logging
+[4.516s] [100%] Built target kobuki_core_demo_chirp
+[4.882s] Invoked command in '/home/samar/takwa_ws/build/kobuki_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --build /home/samar/takwa_ws/build/kobuki_core -- -j4 -l4
+[5.600s] Invoking command in '/home/samar/takwa_ws/build/kobuki_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --install /home/samar/takwa_ws/build/kobuki_core
+[5.631s] -- Install configuration: ""
+[5.632s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include
+[5.632s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/CMakeLists.txt
+[5.632s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core
+[5.632s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/kobuki.hpp
+[5.632s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/parameters.hpp
+[5.632s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/dock_drive.hpp
+[5.632s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/modules
+[5.633s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/modules/battery.hpp
+[5.633s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/modules/digital_output.hpp
+[5.633s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/modules/sound.hpp
+[5.633s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/modules/led_array.hpp
+[5.633s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/modules/acceleration_limiter.hpp
+[5.639s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/modules/diff_drive.hpp
+[5.639s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/command.hpp
+[5.640s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/event_manager.hpp
+[5.640s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/modules.hpp
+[5.640s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/logging.hpp
+[5.640s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets.hpp
+[5.640s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packet_handler
+[5.645s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packet_handler/payload_base.hpp
+[5.645s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packet_handler/payload_headers.hpp
+[5.647s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packet_handler/packet_finder.hpp
+[5.648s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets
+[5.649s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/eeprom.hpp
+[5.649s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/gp_input.hpp
+[5.649s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/controller_info.hpp
+[5.649s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/dock_ir.hpp
+[5.650s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/inertia.hpp
+[5.650s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/three_axis_gyro.hpp
+[5.650s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/core_sensors.hpp
+[5.650s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/current.hpp
+[5.650s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/firmware.hpp
+[5.650s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/hardware.hpp
+[5.650s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/cliff.hpp
+[5.651s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/unique_device_id.hpp
+[5.651s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/version_info.hpp
+[5.655s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/macros.hpp
+[5.655s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/environment/library_path.sh
+[5.655s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/environment/library_path.dsv
+[5.655s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/ament_index/resource_index/package_run_dependencies/kobuki_core
+[5.656s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/ament_index/resource_index/parent_prefix_path/kobuki_core
+[5.656s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/environment/ament_prefix_path.sh
+[5.656s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/environment/ament_prefix_path.dsv
+[5.659s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/environment/path.sh
+[5.660s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/environment/path.dsv
+[5.660s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/local_setup.bash
+[5.660s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/local_setup.sh
+[5.660s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/local_setup.zsh
+[5.660s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/local_setup.dsv
+[5.661s] -- Installing: /home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/package.dsv
+[5.661s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/ament_index/resource_index/packages/kobuki_core
+[5.661s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreExport.cmake
+[5.664s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreExport-noconfig.cmake
+[5.664s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_targets-extras.cmake
+[5.664s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.665s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.665s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_libraries-extras.cmake
+[5.666s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreConfig.cmake
+[5.666s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreConfig-version.cmake
+[5.673s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/share/kobuki_core/package.xml
+[5.694s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core
+[5.708s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/kobuki.hpp
+[5.713s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/parameters.hpp
+[5.713s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/dock_drive.hpp
+[5.713s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/modules
+[5.718s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/modules/battery.hpp
+[5.720s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/modules/digital_output.hpp
+[5.720s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/modules/sound.hpp
+[5.723s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/modules/led_array.hpp
+[5.723s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/modules/acceleration_limiter.hpp
+[5.723s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/modules/diff_drive.hpp
+[5.725s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/command.hpp
+[5.725s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/event_manager.hpp
+[5.726s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/modules.hpp
+[5.732s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/logging.hpp
+[5.732s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets.hpp
+[5.761s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packet_handler
+[5.762s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packet_handler/payload_base.hpp
+[5.763s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packet_handler/payload_headers.hpp
+[5.763s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packet_handler/packet_finder.hpp
+[5.764s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets
+[5.782s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/eeprom.hpp
+[5.870s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/gp_input.hpp
+[5.874s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/controller_info.hpp
+[5.880s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/dock_ir.hpp
+[5.881s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/inertia.hpp
+[5.881s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/three_axis_gyro.hpp
+[5.881s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/core_sensors.hpp
+[5.881s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/current.hpp
+[5.881s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/firmware.hpp
+[5.881s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/hardware.hpp
+[5.881s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/cliff.hpp
+[5.881s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/packets/unique_device_id.hpp
+[5.881s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/version_info.hpp
+[5.882s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/include/kobuki_core/macros.hpp
+[5.882s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/lib/libkobuki_core.so.1.4.0
+[5.882s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/lib/libkobuki_core.so
+[5.882s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/lib/kobuki_core/demo_buttons
+[5.882s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/lib/kobuki_core/demo_chirp
+[5.895s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/lib/kobuki_core/demo_custom_logging
+[5.895s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/lib/kobuki_core/demo_data_stream
+[5.895s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/lib/kobuki_core/demo_log_levels
+[5.896s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/lib/kobuki_core/demo_raw_data_stream
+[5.896s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/lib/kobuki_core/demo_simple_loop
+[5.896s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/lib/kobuki_core/demo_velocity_commands
+[5.896s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/bin/kobuki-version-info
+[5.897s] -- Up-to-date: /home/samar/takwa_ws/install/kobuki_core/bin/kobuki-simple-keyop
+[5.898s] Invoked command in '/home/samar/takwa_ws/build/kobuki_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samar/takwa_ws/install/slam_launch:/home/samar/takwa_ws/install/nav2_launch:/home/samar/takwa_ws/install/mon_package:/home/samar/takwa_ws/install/follow_waypoints:/opt/ros/iron /usr/bin/cmake --install /home/samar/takwa_ws/build/kobuki_core

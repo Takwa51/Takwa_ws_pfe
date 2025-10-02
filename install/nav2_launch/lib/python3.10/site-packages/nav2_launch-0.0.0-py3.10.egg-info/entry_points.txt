@@ -1,0 +1,2 @@
+[console_scripts]
+nav2_launch = nav2_launch.nav2_launch:generate_launch_description
