@@ -1,4 +1,4 @@
-# 🤖 Projet Robot – Surveillance Thermique des Bâtiments    
+# Projet Robot – Surveillance Thermique des Bâtiments    
 **Système autonome de monitoring thermique intégrant navigation ROS 2, analyse IoT et visualisation Grafana**
 
 Ce dépôt contient la partie **Robot** du mon projet de fin d'étude "Exploitation et déploiement des données IoT pour la surveillance thermique des bâtiments". Le système assure la collecte, l'analyse et la visualisation en temps réel des données thermiques via un robot mobile autonome.
