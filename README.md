@@ -100,7 +100,7 @@ Lancer la stack Grafana + Loki + Promtail
     ```
 #  Machine Learning embarqué
 Le robot embarque un modèle ML (RandomForest) :
-    ```bash
+    ```
     mon_package/models/best_random_forest_pipeline.zip
     ```
 
