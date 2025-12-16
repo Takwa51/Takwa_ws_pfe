@@ -106,7 +106,7 @@ Le robot embarque un modèle ML (RandomForest) :
 
 
 
-## 👥 Auteurs
+## 👥 Auteur
 
 *   **Takwa Arfani** - *Développement principal* -
     [GitHub](https://github.com/Takwa51) -
